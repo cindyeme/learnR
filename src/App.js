@@ -1,24 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+import { Routes, Route, Navigate } from 'react-router-dom';
+import "@material-tailwind/react/tailwind.css";
+import "./styles/output.css";
+import Home from './pages';
+import Error404 from './components/Error/error404';
+import AboutUs from './pages/about';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Routes>
+      <Route path="/" element={<Home/>} />
+      <Route path="/about-us" element={<AboutUs />} />
+      <Route path="/not-found" element={<Error404 />} />
+      {/* <Navigate to="/not-found" /> */}
+    </Routes>
   );
 }
 

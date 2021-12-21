@@ -1,0 +1,90 @@
+[
+  {
+    "teacher": "assets/img/teacher.png",
+    "name": "Christophe Habimana",
+    "topic": "You and Energy",
+    "subject": "Basic Tech",
+    "pages": 12,
+    "lectures": 4,
+    "grade": "Junior Sec",
+    "color": "bg-tag-pink",
+    "cover": "btech.jfif"
+  },
+  {
+    "teacher": "assets/img/teacher.png",
+    "name": "Emerenini Cynthia",
+    "topic": "Computer Operations and Concepts",
+    "subject": "Computing",
+    "pages": 12,
+    "lectures": 4,
+    "grade": "Junior Sec",
+    "color": "bg-tag-yellow",
+    "cover": "infotech.jpg"
+  },
+  {
+    "teacher": "assets/img/teacher.png",
+    "name": "Elvis Mariga",
+    "topic": "Exploring Our Environments",
+    "subject": "Basic Science",
+    "pages": 12,
+    "lectures": 4,
+    "grade": "Junior Sec",
+    "color": "bg-tag-green",
+    "cover": "bscience.jfif"
+  },
+  {
+    "teacher": "assets/img/teacher.png",
+    "name": "Mary Obiagba",
+    "topic": "Electricity and Magnetism",
+    "subject": "Physics",
+    "pages": 12,
+    "lectures": 4,
+    "grade": "Junior Sec",
+    "color": "bg-tag-blue",
+    "cover": "physics.jpg"
+  },
+  {
+    "teacher": "assets/img/teacher.png",
+    "name": "Mary Obiagba",
+    "topic": "Electricity and Magnetism",
+    "subject": "Physics",
+    "pages": 12,
+    "lectures": 4,
+    "grade": "Junior Sec",
+    "color": "bg-tag-green",
+    "cover": "physics.jpg"
+  },
+  {
+    "teacher": "assets/img/teacher.png",
+    "name": "Mary Obiagba",
+    "topic": "Electricity and Magnetism",
+    "subject": "Physics",
+    "pages": 12,
+    "lectures": 4,
+    "grade": "Junior Sec",
+    "color": "bg-tag-blue",
+    "cover": "physics.jpg"
+  },
+  {
+    "teacher": "assets/img/teacher.png",
+    "name": "Mary Obiagba",
+    "topic": "Electricity and Magnetism",
+    "subject": "Physics",
+    "pages": 12,
+    "lectures": 4,
+    "grade": "Junior Sec",
+    "color": "bg-tag-blue",
+    "cover": "physics.jpg"
+  },
+  {
+    "teacher": "assets/img/teacher.png",
+    "name": "Emerenini Cynthia",
+    "topic": "Computer Operations and Concepts",
+    "subject": "Computing",
+    "pages": 12,
+    "lectures": 4,
+    "grade": "Junior Sec",
+    "color": "bg-tag-yellow",
+    "cover": "infotech.jpg"
+  }
+]
