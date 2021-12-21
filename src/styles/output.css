@@ -991,6 +991,26 @@ Ensure the default browser behavior of the `hidden` attribute.
   border-top-width: 8px;
 }
 
+.border-l{
+  border-left-width: 1px;
+}
+
+.border-l-2{
+  border-left-width: 2px;
+}
+
+.border-l-4{
+  border-left-width: 4px;
+}
+
+.border-b{
+  border-bottom-width: 1px;
+}
+
+.border-b-4{
+  border-bottom-width: 4px;
+}
+
 .border-grayish-600{
   --tw-border-opacity: 1;
   border-color: rgb(178 186 194 / var(--tw-border-opacity));
@@ -1196,6 +1216,18 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .pt-3{
   padding-top: 0.75rem;
+}
+
+.pl-3{
+  padding-left: 0.75rem;
+}
+
+.pb-3{
+  padding-bottom: 0.75rem;
+}
+
+.pb-2{
+  padding-bottom: 0.5rem;
 }
 
 .text-center{
@@ -1549,6 +1581,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
   .lg\:col-span-2{
     grid-column: span 2 / span 2;
+  }
+
+  .lg\:-mt-24{
+    margin-top: -6rem;
   }
 
   .lg\:grid{

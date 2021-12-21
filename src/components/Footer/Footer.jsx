@@ -14,7 +14,7 @@ function Footer() {
         <div className="grid sm:grid-cols-12 gap-8 py-8 md:py-12 border-t border-gray-200">
           {/* 1st block */}
           <div className="sm:col-span-12 lg:col-span-3">
-            <div className="-mt-24 p-6 border-t-8 border-primary-800 bg-white flex flex-col justify-center items-center space-y-3">
+            <div className="lg:-mt-24 p-6 border-t-8 border-primary-800 bg-white flex flex-col justify-center items-center space-y-3">
               {/* Logo */}
               <Link
                 to="/"
@@ -75,14 +75,14 @@ function Footer() {
 
           {/* 2nd block */}
           <div className="sm:col-span-6 md:col-span-3 lg:col-span-2">
-            <h6 className=" font-bold mb-4">Products</h6>
+            <h6 className=" font-bold mb-4 border-l-4 pl-3 border-primary-900">Courses</h6>
             <ul className="text-sm">
               <li className="mb-2">
                 <Link
                   to="#"
                   className=" hover:text-primary-900 transition duration-150 ease-in-out"
                 >
-                  Web Studio
+                  Physics
                 </Link>
               </li>
               <li className="mb-2">
@@ -90,7 +90,7 @@ function Footer() {
                   to="#"
                   className=" hover:text-primary-900 transition duration-150 ease-in-out"
                 >
-                  DynamicBox Flex
+                  Mathematics
                 </Link>
               </li>
               <li className="mb-2">
@@ -98,7 +98,7 @@ function Footer() {
                   to="#"
                   className=" hover:text-primary-900 transition duration-150 ease-in-out"
                 >
-                  Programming Forms
+                  Literature
                 </Link>
               </li>
               <li className="mb-2">
@@ -106,7 +106,7 @@ function Footer() {
                   to="#"
                   className=" hover:text-primary-900 transition duration-150 ease-in-out"
                 >
-                  Integrations
+                  Chemistry
                 </Link>
               </li>
               <li className="mb-2">
@@ -114,7 +114,7 @@ function Footer() {
                   to="#"
                   className=" hover:text-primary-900 transition duration-150 ease-in-out"
                 >
-                  Command-line
+                  Biology
                 </Link>
               </li>
             </ul>
@@ -122,7 +122,7 @@ function Footer() {
 
           {/* 3rd block */}
           <div className="sm:col-span-6 md:col-span-3 lg:col-span-2">
-            <h6 className=" font-bold mb-4">Resources</h6>
+            <h6 className=" font-bold mb-4 border-l-4 pl-3 border-primary-900">Resources</h6>
             <ul className="text-sm">
               <li className="mb-2">
                 <Link
@@ -169,7 +169,7 @@ function Footer() {
 
           {/* 4th block */}
           <div className="sm:col-span-6 md:col-span-3 lg:col-span-2">
-            <h6 className=" font-bold mb-4">Company</h6>
+            <h6 className=" font-bold mb-4 border-l-4 pl-3 border-primary-900">Quick Links</h6>
             <ul className="text-sm">
               <li className="mb-2">
                 <Link
@@ -216,7 +216,7 @@ function Footer() {
 
           {/* 5th block */}
           <div className="sm:col-span-6 md:col-span-3 lg:col-span-3">
-            <h6 className=" font-bold mb-4">Subscribe</h6>
+            <h6 className=" font-bold mb-4 border-l-4 pl-3 border-primary-900">Subscribe</h6>
             <p className="text-sm  mb-4">
               Get the latest news and articles to your inbox every month.
             </p>
