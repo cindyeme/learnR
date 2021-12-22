@@ -1,4 +1,3 @@
-import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -6,7 +5,6 @@ import { faFacebookF } from "@fortawesome/free-brands-svg-icons";
 import { faTwitter } from "@fortawesome/free-brands-svg-icons";
 import { faInstagram } from "@fortawesome/free-brands-svg-icons";
 import { faMediumM } from "@fortawesome/free-brands-svg-icons";
-import Image from "@material-tailwind/react/Image";
 import Teachers_data from '../../constants/teachers.json';
 import { settings } from "../../constants/slider";
 import { TeachersSlider } from "../../styles/styled";

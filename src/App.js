@@ -1,4 +1,4 @@
-import { Routes, Route, Navigate } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 import "@material-tailwind/react/tailwind.css";
 import "./styles/output.css";
 import Home from './pages';

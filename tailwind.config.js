@@ -8,7 +8,8 @@ module.exports = {
       colors: {
         primary: {
           fade: " rgb(38, 93, 151)",
-          amber: "#FFC107",
+          // amber: "#FFC107",
+          amber: "#f5960b",
           600: "#132f4c",
           700: "#002147",
           800: "#CB7B01",
@@ -26,6 +27,7 @@ module.exports = {
         },
         grayish: {
           light: "rgba(255, 255, 255, .2)",
+          active: "#ffffff33",
           600: "#b2bac2",
           700: "#9DA5B3",
           800: "#907888",

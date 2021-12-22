@@ -2,10 +2,10 @@ import aboutImg from '../../assets/img/course-appp.svg';
 import Button from '../../components/Button/Button';
 
 const AboutBrief = () => (
-  <section className="relative container mx-auto mt-4 lg:mt-0">
+  <section className="relative container mx-auto mt-4 xl:mt-0">
     <div className="grid lg:grid-cols-12 gap-x-6">
       <div className="col-span-full lg:col-span-6">
-        <div className="img-box relative my-5 lg:my-0">
+        <div className="img-box relative my-5 xl:my-0">
           <img src={aboutImg} alt="about-img" className="img-fluid z-50" />
         </div>
       </div>

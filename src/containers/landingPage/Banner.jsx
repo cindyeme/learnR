@@ -8,7 +8,7 @@ import Button from "../../components/Button/Button";
 const Banner = () => (
   <section className="relative">
     <div class="triangle"></div>
-    <div className="relative container mx-auto px-4 banner -mt-44">
+    <div className="relative container mx-auto px-4 banner -mt-28 lg:-mt-18 xl:-mt-16">
       <div className="lg:grid gap-x-4 lg:grid-cols-12">
         <div className="wlc-text col-span-full lg:col-span-7">
           <h1 className="lg:text-6xl text-4xl font-bolder tracking-wide lg:font-bold text-white leading-snug banner_caption">

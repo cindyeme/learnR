@@ -18,7 +18,7 @@ function Footer() {
               {/* Logo */}
               <Link
                 to="/"
-                className="inline-block uppercase"
+                className="flex items-center uppercase"
                 aria-label="LearnR"
               >
                 <span className="text-xl font-bold text-grayish-900">
