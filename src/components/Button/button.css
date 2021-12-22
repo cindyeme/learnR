@@ -11,7 +11,7 @@
   display: inline-table;
   padding: 18px 30px;
   font-weight: 600;
-  background-color: #f5960b;
+  background: #f5960b;
   /* border-radius: 3px; */
 }
 .default-btn:focus{

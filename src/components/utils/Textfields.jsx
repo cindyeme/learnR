@@ -33,11 +33,11 @@ export const Input = ({
       onPaste={onPaste}
       value={value}
       onBlur={handleBlur}
-      className={`form-input py-2 px-2 sm:px-4 w-full h-12 text-left text-md rounded hover:shadow-none 
-        focus:outline-none focus:border-primary-800 ${
+      className={` ${
           disabled ? 'text-gray-500' : 'text-gray-800'
         } focus:shadow-xl hover:border-primary-800 mt-3
-        appearance-none bg-gray-100 focus:bg-white placeholder-opacity-75 ${border}`}
+         bg-gray-100 focus:bg-white focus:outline-none placeholder-opacity-75 form-input py-2 px-2 sm:px-4 w-full h-12 text-left text-md rounded hover:shadow-none 
+         border border-primary-fade text-grayish-900 font-bold ${border}`}
       style={style}
       disabled={disabled}
     />
@@ -52,7 +52,10 @@ export const PasswordInput = ({ name, label, placeholder, onChange, value, handl
   };
   return (
     <div className="input-group">
-      <label htmlFor={name} className="sm:text-base text-sm text-gray-800 font-medium text-left">
+      <label
+        htmlFor={name}
+        className="sm:text-base text-sm text-gray-800 font-medium text-left"
+      >
         {label}
       </label>
       <div className="relative text-center">
@@ -64,10 +67,10 @@ export const PasswordInput = ({ name, label, placeholder, onChange, value, handl
           onChange={onChange}
           value={value}
           onBlur={handleBlur}
-          className="form-input py-2 px-4 w-full h-12 text-left text-md 
-            rounded hover:shadow-none focus:outline-none focus:border-primary-800
-            focus:shadow-xl hover:border-primary-800 mt-3 bg-gray-100 focus:bg-white"
-          type={show ? 'password' : 'text'}
+          className="focus:shadow-xl hover:border-primary-800 mt-3
+         bg-gray-100 focus:bg-white focus:outline-none placeholder-opacity-75 form-input py-2 px-2 sm:px-4 w-full h-12 text-left text-md rounded hover:shadow-none 
+         border border-primary-fade text-grayish-900 font-bold"
+          type={show ? "password" : "text"}
         />
         <div className="absolute inset-y-0 right-0 pr-3 grid items-center text-sm leading-5">
           <button
@@ -75,7 +78,7 @@ export const PasswordInput = ({ name, label, placeholder, onChange, value, handl
             onClick={togglePasswordVisiblity}
             className="focus:outline-none text-base text-gray-600 grid grid-cols-1 items-center mt-2"
           >
-            <i className={`fa fa-${show ? 'eye-slash' : 'eye'}`} />
+            <i className={`fa fa-${show ? "eye-slash" : "eye"}`} />
           </button>
         </div>
       </div>

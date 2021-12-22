@@ -1,8 +1,8 @@
 import './button.css';
 
-const Button = ({children, className}) => (
+const Button = ({children, className, disabled}) => (
   <div className="relative">
-    <button type="submit" className={`default-btn ${className}`}>
+    <button type="submit" className={`default-btn ${className}`} disabled={disabled}>
       {children}
     </button>
   </div>
