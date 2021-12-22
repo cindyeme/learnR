@@ -1828,6 +1828,10 @@ Ensure the default browser behavior of the `hidden` attribute.
     margin-top: -18rem;
   }
 
+  .xl\:-mt-80{
+    margin-top: -20rem;
+  }
+
   .xl\:px-20{
     padding-left: 5rem;
     padding-right: 5rem;
