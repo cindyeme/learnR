@@ -14,7 +14,7 @@ function Header() {
   // detect whether user has scrolled the page down by 5px
   useEffect(() => {
     const scrollHandler = () =>
-      window.pageYOffset > 5 ? setTop(false) : setTop(true);
+      window.pageYOffset > 10 ? setTop(false) : setTop(true);
     window.addEventListener("scroll", scrollHandler);
     return () => window.removeEventListener("scroll", scrollHandler);
   }, [top]);
@@ -24,12 +24,12 @@ function Header() {
   return (
     <>
       <header
-        className={`fixed w-full z-50 md:bg-opacity-90 transition duration-300 ease-in-out ${
+        className={`fixed w-full z-50 md:bg-opacity-90 transition duration-300 ease-in-out  ${
           !top && "bg-primary-600 shadow-lg"
         }`}
         ref={ref}
       >
-        <div className="max-w-full mx-auto px-4 lg:px-16 xl:px-20 py-4">
+        <div className="max-w-full bg-primary-600 lg:bg-transparent mx-auto px-4 lg:px-16 xl:px-20 py-4">
           <div className="flex flex-wrap items-center justify-between">
             <Link
               to="/"
@@ -39,11 +39,15 @@ function Header() {
               <span className="text-xl font-bold">Learn</span>{" "}
               <span className="text-primary-800 text-2xl font-bolder">R</span>
             </Link>
-
-            <button type="button" onClick={handleClick} className="lg:hidden block">
+            {/* Hamburger */}
+            <button
+              type="button"
+              onClick={handleClick}
+              className="lg:hidden focus:outline-none"
+            >
               {open ? (
                 <svg
-                  className="w-6 h-6 cursor-pointer bg-primary-600"
+                  className="w-8 h-8 cursor-pointer bg-primary-600"
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 24 24"
                   fill="none"
@@ -55,7 +59,7 @@ function Header() {
                 </svg>
               ) : (
                 <svg
-                  className="w-6 h-6 cursor-pointer"
+                  className="w-8 h-8 cursor-pointer"
                   fill="none"
                   stroke="currentColor"
                   viewBox="0 0 24 24"
@@ -207,7 +211,7 @@ function Header() {
           </div>
         </Transition>
         <Transition
-          className="fixed inset-0 z-40 bg-black bg-opacity-75 transition-opacity w-full max-w-full lg:hidden"
+          className="fixed inset-0 z-40 bg-black bg-opacity-50 transition-opacity w-full max-w-full lg:hidden"
           show={open}
           enter="transition ease-out duration-200"
           enterStart="opacity-0"

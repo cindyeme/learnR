@@ -39,7 +39,7 @@ const Banner = () => (
           <ul className="mt-8 flex  space-x-4 text-white font-medium">
             <li className="font-bold">Popular:</li>
             <li>
-              <ul className="flex flex-wrap space-x-4">
+              <ul className="flex flex-wrap space-x-1 sm:space-x-4">
                 <li>
                   <Link
                     to="/physics"
