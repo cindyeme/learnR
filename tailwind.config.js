@@ -27,7 +27,6 @@ module.exports = {
         },
         grayish: {
           light: "rgba(255, 255, 255, .2)",
-          active: "#ffffff33",
           600: "#b2bac2",
           700: "#9DA5B3",
           800: "#907888",
@@ -48,6 +47,9 @@ module.exports = {
       padding: {
         6: "1.5rem",
         8: "2rem",
+      },
+      margin: {
+        "550": "550px"
       },
       width: {
         550: "550px",

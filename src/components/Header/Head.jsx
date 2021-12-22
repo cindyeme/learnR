@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from "react";
-
+// import { withRouter } from 'react-router';
 import { Link, NavLink } from "react-router-dom";
 import Transition from '../utils/Transition';
 
@@ -43,7 +43,7 @@ function Header() {
             <button
               type="button"
               onClick={handleClick}
-              className="lg:hidden focus:outline-none"
+              className="lg:hidden focus:outline-none mr-3"
             >
               {open ? (
                 <svg
@@ -82,8 +82,8 @@ function Header() {
                   <NavLink
                     exact
                     to="/"
-                    activeClassName="bg-grayish-active"
-                    className=" text-xs uppercase font-semibold px-3 py-2 hover:text-primary-900 transition-all duration-300 ease-out"
+                    activeClassName="text-primary-900"
+                    className=" text-xs uppercase flex items-center font-semibold px-3 py-2 hover:text-primary-900 transition-all duration-300 ease-out "
                   >
                     Home
                   </NavLink>
@@ -91,8 +91,9 @@ function Header() {
                 {/* About */}
                 <li>
                   <NavLink
+                    exact
                     to="/about-us"
-                    activeClassName="bg-grayish-active"
+                    activeClassName="bg-grayish-light"
                     className=" text-xs uppercase font-semibold px-3 py-2 hover:text-primary-900 transition-all duration-300 ease-out"
                   >
                     About Us
@@ -101,8 +102,9 @@ function Header() {
                 {/* Courses */}
                 <li>
                   <NavLink
+                    exact
                     to="/courses"
-                    activeClassName="bg-grayish-active"
+                    activeClassName="bg-grayish-light"
                     className=" text-xs uppercase font-semibold px-3 py-2 hover:text-primary-900 transition-all duration-300 ease-out"
                   >
                     Courses
@@ -111,8 +113,9 @@ function Header() {
                 {/* Become-a-teacher */}
                 <li>
                   <NavLink
+                    exact
                     to="/become-a-teacher"
-                    activeClassName="bg-grayish-active"
+                    activeClassName="bg-grayish-light"
                     className=" text-xs uppercase font-semibold px-3 py-2 hover:text-primary-900 transition-all duration-300 ease-out"
                   >
                     Become A Teacher
@@ -153,16 +156,16 @@ function Header() {
               open
                 ? "opacity-100 transition-opacity duration-300 ease-in"
                 : "hidden"
-            } bg-white px-4 pb-5 pt-2 w-full  rounded h-full overflow-y-auto transition-all duration-300 ease-out z-50 lg:hidden`}
+            } bg-white px-4 pb-5 pt-2 w-full rounded h-full overflow-y-auto transition-all duration-300 ease-out z-50 lg:hidden`}
           >
-            <ul className="flex flex-col space-y-5 divide-y divide-grayish-light">
+            <ul className="flex flex-col space-y-5 ">
               {/* Home */}
               <li className="mt-4">
                 <NavLink
                   exact
                   to="/"
-                  activeClassName="bg-grayish-active"
-                  className="text-gray-700 text-xs uppercase font-semibold px-3 py-2 hover:text-primary-900 transition-all duration-300 ease-out"
+                  activeClassName="bg-grayish-light"
+                  className="text-gray-700 text-xs uppercase font-semibold px-3 py-2 hover:text-primary-900 transition-all duration-300 ease-out "
                 >
                   Home
                 </NavLink>
@@ -170,8 +173,9 @@ function Header() {
               {/* About */}
               <li className="mt-4">
                 <NavLink
+                  exact
                   to="/about-us"
-                  activeClassName="bg-grayish-active"
+                  activeClassName="bg-grayish-light"
                   className="text-gray-700 text-xs uppercase font-semibold px-3 py-2 hover:text-primary-900 transition-all duration-300 ease-out"
                 >
                   About Us
@@ -180,8 +184,9 @@ function Header() {
               {/* Courses */}
               <li className="mt-4">
                 <NavLink
+                  exact
                   to="/courses"
-                  activeClassName="bg-grayish-active"
+                  activeClassName="bg-grayish-light"
                   className="text-gray-700 text-xs uppercase font-semibold px-3 py-2 hover:text-primary-900 transition-all duration-300 ease-out"
                 >
                   Courses
@@ -190,8 +195,9 @@ function Header() {
               {/* Become-a-teacher */}
               <li className="mt-4">
                 <NavLink
+                  exact
                   to="/become-a-teacher"
-                  activeClassName="bg-grayish-active"
+                  activeClassName="bg-grayish-light"
                   className="text-gray-700 text-xs uppercase font-semibold px-3 py-2 hover:text-primary-900 transition-all duration-300 ease-out"
                 >
                   Become A Teacher
@@ -211,7 +217,7 @@ function Header() {
           </div>
         </Transition>
         <Transition
-          className="fixed inset-0 z-40 bg-black bg-opacity-50 transition-opacity w-full max-w-full lg:hidden"
+          className="fixed inset-0 z-40 bg-black bg-opacity-75 transition-opacity w-full max-w-full lg:hidden"
           show={open}
           enter="transition ease-out duration-200"
           enterStart="opacity-0"
