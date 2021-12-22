@@ -27,7 +27,7 @@ export default function Header() {
         </NavbarWrapper>
 
         <NavbarCollapse open={openNavbar}>
-          {/* <Nav>
+          <Nav>
             <NavLink active="light" href="/" ripple="light">
               Home
             </NavLink>
@@ -53,7 +53,7 @@ export default function Header() {
                 Get Started
               </Button>
             </NavLink>
-          </Nav> */}
+          </Nav>
         </NavbarCollapse>
       </NavbarContainer>
     </Navbar>

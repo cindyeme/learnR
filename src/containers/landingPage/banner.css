@@ -20,8 +20,6 @@
   border-color: rgba(255, 255, 255, 0.1) transparent transparent transparent;
   left: 24%;
   transform: translateX(-50%) translateY(100%);
-  -webkit-animation: color-change-1x 2s linear infinite alternate both;
-	      animation: color-change-1x 2s linear infinite alternate both;
 }
 
 .banner_caption{

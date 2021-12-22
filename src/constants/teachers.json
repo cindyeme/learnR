@@ -1,0 +1,27 @@
+[
+  {
+    "name": "Emerenini Cynthia",
+    "img": "teacher.jpg",
+    "desc": "A brief info about the teacher here."
+  },
+  {
+    "name": "Christophe Habimana",
+    "img": "teacher-2.jpg",
+    "desc": "A brief info about the teacher here."
+  },
+  {
+    "name": "Wanjiru Catherine",
+    "img": "teacher-3.jpg",
+    "desc": "A brief info about the teacher here."
+  },
+  {
+    "name": "Elvis Mariga",
+    "img": "teacher-5.jpg",
+    "desc": "A brief info about the teacher here."
+  },
+  {
+    "name": "Joseph Bloom",
+    "img": "teacher-4.jpg",
+    "desc": "A brief info about the teacher here."
+  }
+]

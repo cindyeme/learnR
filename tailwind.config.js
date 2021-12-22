@@ -22,6 +22,7 @@ module.exports = {
           purple: "#7c4bc0",
           red: "#d23f3f",
           green: "#2da397",
+          section: "rgb(0, 30, 60, 0.6)",
         },
         grayish: {
           light: "rgba(255, 255, 255, .2)",
@@ -32,8 +33,8 @@ module.exports = {
         },
       },
       fontFamily: {
-        inter: ["Montserrat", "sans-serif"],
-        poppins: ["Roboto", "sans-serif"],
+        montserrat: ["Montserrat", "sans-serif"],
+        roboto: ["Roboto", "sans-serif"],
       },
       fontWeight: {
         bolder: 800,

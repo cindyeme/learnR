@@ -32,11 +32,12 @@ function Footer() {
                 access to quality education seriously. We connect learners to
                 the best tutors and courses from around the world.
               </p>
+              {/* Social links */}
               <ul className="flex mb-4 md:mb-0">
                 <li>
                   <Link
                     to="#"
-                    className="flex justify-center items-center  hover:text-primary-900 bg-white text-gray-600 hover:bg-white-100 rounded-full shadow transition duration-150 ease-in-out border border-gray-600 px-3 py-2"
+                    className="flex justify-center items-center  hover:text-primary-800 hover:border-primary-800 bg-white text-gray-600 hover:bg-white-100 rounded-full shadow transition duration-150 ease-in-out border border-gray-600 px-3 py-2"
                     aria-label="Facebook"
                   >
                     <FontAwesomeIcon icon={faFacebookF} className="text-sm" />
@@ -45,7 +46,7 @@ function Footer() {
                 <li className="ml-3">
                   <Link
                     to="#"
-                    className="flex justify-center items-center  hover:text-primary-900 bg-white text-gray-600 hover:bg-white-100 rounded-full shadow transition duration-150 ease-in-out border border-gray-600 px-3 py-2"
+                    className="flex justify-center items-center  hover:text-primary-800 hover:border-primary-800 bg-white text-gray-600 hover:bg-white-100 rounded-full shadow transition duration-150 ease-in-out border border-gray-600 px-3 py-2"
                     aria-label="Github"
                   >
                     <FontAwesomeIcon icon={faGithub} className="text-sm" />
@@ -54,7 +55,7 @@ function Footer() {
                 <li className="ml-3">
                   <Link
                     to="#"
-                    className="flex justify-center items-center  hover:text-primary-900 bg-white text-gray-600 hover:bg-white-100 rounded-full shadow transition duration-150 ease-in-out border border-gray-600 px-3 py-2"
+                    className="flex justify-center items-center  hover:text-primary-800 hover:border-primary-800 bg-white text-gray-600 hover:bg-white-100 rounded-full shadow transition duration-150 ease-in-out border border-gray-600 px-3 py-2"
                     aria-label="Twitter"
                   >
                     <FontAwesomeIcon icon={faTwitter} className="text-sm" />
@@ -63,7 +64,7 @@ function Footer() {
                 <li className="ml-3">
                   <Link
                     to="#"
-                    className="flex justify-center items-center  hover:text-primary-900 bg-white text-gray-600 hover:bg-white-100 rounded-full shadow transition duration-150 ease-in-out border border-gray-600 px-3 py-2"
+                    className="flex justify-center items-center  hover:text-primary-800 hover:border-primary-800 bg-white text-gray-600 hover:bg-white-100 rounded-full shadow transition duration-150 ease-in-out border border-gray-600 px-3 py-2"
                     aria-label="Instagram"
                   >
                     <FontAwesomeIcon icon={faInstagram} className="text-sm" />
@@ -75,7 +76,9 @@ function Footer() {
 
           {/* 2nd block */}
           <div className="sm:col-span-6 md:col-span-3 lg:col-span-2">
-            <h6 className=" font-bold mb-4 border-l-4 pl-3 border-primary-900">Courses</h6>
+            <h6 className=" font-bold mb-4 border-l-4 pl-3 border-primary-900">
+              Courses
+            </h6>
             <ul className="text-sm">
               <li className="mb-2">
                 <Link
@@ -122,7 +125,9 @@ function Footer() {
 
           {/* 3rd block */}
           <div className="sm:col-span-6 md:col-span-3 lg:col-span-2">
-            <h6 className=" font-bold mb-4 border-l-4 pl-3 border-primary-900">Resources</h6>
+            <h6 className=" font-bold mb-4 border-l-4 pl-3 border-primary-900">
+              Resources
+            </h6>
             <ul className="text-sm">
               <li className="mb-2">
                 <Link
@@ -169,7 +174,9 @@ function Footer() {
 
           {/* 4th block */}
           <div className="sm:col-span-6 md:col-span-3 lg:col-span-2">
-            <h6 className=" font-bold mb-4 border-l-4 pl-3 border-primary-900">Quick Links</h6>
+            <h6 className=" font-bold mb-4 border-l-4 pl-3 border-primary-900">
+              Quick Links
+            </h6>
             <ul className="text-sm">
               <li className="mb-2">
                 <Link
@@ -192,7 +199,7 @@ function Footer() {
                   to="#"
                   className=" hover:text-primary-900 transition duration-150 ease-in-out"
                 >
-                  Company values
+                  Become a Teacher
                 </Link>
               </li>
               <li className="mb-2">
@@ -216,7 +223,9 @@ function Footer() {
 
           {/* 5th block */}
           <div className="sm:col-span-6 md:col-span-3 lg:col-span-3">
-            <h6 className=" font-bold mb-4 border-l-4 pl-3 border-primary-900">Subscribe</h6>
+            <h6 className=" font-bold mb-4 border-l-4 pl-3 border-primary-900">
+              Subscribe
+            </h6>
             <p className="text-sm  mb-4">
               Get the latest news and articles to your inbox every month.
             </p>
@@ -264,8 +273,7 @@ function Footer() {
         </div>
 
         {/* Bottom area */}
-        <div className="md:flex md:items-center md:justify-between py-4 md:py-8 border-t border-gray-200">
-          {/* Social links */}
+        <div className="md:flex md:items-center md:justify-between py-8 border-t border-gray-200">
           <div className="text-sm md:order-1">
             <Link
               to="#"
@@ -285,8 +293,8 @@ function Footer() {
           {/* Copyrights note */}
           <div className="text-sm  mr-4">
             Made by{" "}
-            <a className="text-primary-amber font-bold hover:underline" href="">
-              MW28 Team
+            <a className="text-primary-amber font-bold hover:underline" href="https://">
+              MWS28 Team
             </a>
             . All rights reserved.
           </div>

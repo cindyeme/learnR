@@ -9,7 +9,7 @@ import Teachers from "../containers/landingPage/Teachers";
 const Home = () => {
   return (
     <Layout>
-      <section className="relative">
+      <section>
         <Banner />
         <AboutBrief />
         <Discover />
