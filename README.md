@@ -37,17 +37,19 @@ After installing nodejs install [yarn](https://www.npmjs.com/package/yarn) if yo
 
 
 ## STARTING THE DEVELOPMENT SERVER
-### `yarn start`
+```bash
+yarn start
+```
 
-Runs the app in the development mode.\
+Runs the app in the development mode.
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 ## RUNNING YARN COMMANDS
 
-To add a dependency, run.\
+To add a dependency, run.
 ### `yarn add [package]`
 
-To remove a dependency, run.\
+To remove a dependency, run.
 
 ### `yarn remove [package] `
 
