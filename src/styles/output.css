@@ -657,10 +657,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-right: 1rem;
 }
 
-.mr-3{
-  margin-right: 0.75rem;
-}
-
 .mt-4{
   margin-top: 1rem;
 }
@@ -683,10 +679,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .mt-10{
   margin-top: 2.5rem;
-}
-
-.-mt-80{
-  margin-top: -20rem;
 }
 
 .mt-8{
@@ -1051,10 +1043,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   border-left-width: 4px;
 }
 
-.border-b{
-  border-bottom-width: 1px;
-}
-
 .border-gray-200{
   --tw-border-opacity: 1;
   border-color: rgb(229 231 235 / var(--tw-border-opacity));
@@ -1100,6 +1088,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   background-color: rgb(19 47 76 / var(--tw-bg-opacity));
 }
 
+.bg-grayish-light{
+  background-color: rgba(255, 255, 255, .2);
+}
+
 .bg-amber-500{
   --tw-bg-opacity: 1;
   background-color: rgb(245 158 11 / var(--tw-bg-opacity));
@@ -1117,15 +1109,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 .bg-tag-blue{
   --tw-bg-opacity: 1;
   background-color: rgb(24 136 201 / var(--tw-bg-opacity));
-}
-
-.bg-grayish-light{
-  background-color: rgba(255, 255, 255, .2);
-}
-
-.bg-primary-900{
-  --tw-bg-opacity: 1;
-  background-color: rgb(142 160 243 / var(--tw-bg-opacity));
 }
 
 .bg-opacity-75{
@@ -1238,6 +1221,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .pr-2{
   padding-right: 0.5rem;
+}
+
+.pt-48{
+  padding-top: 12rem;
 }
 
 .pl-10{
@@ -1383,14 +1370,14 @@ Ensure the default browser behavior of the `hidden` attribute.
   color: rgb(245 150 11 / var(--tw-text-opacity));
 }
 
-.text-gray-700{
-  --tw-text-opacity: 1;
-  color: rgb(55 65 81 / var(--tw-text-opacity));
-}
-
 .text-primary-900{
   --tw-text-opacity: 1;
   color: rgb(142 160 243 / var(--tw-text-opacity));
+}
+
+.text-gray-700{
+  --tw-text-opacity: 1;
+  color: rgb(55 65 81 / var(--tw-text-opacity));
 }
 
 .text-grayish-600{
@@ -1699,10 +1686,6 @@ Ensure the default browser behavior of the `hidden` attribute.
     margin-top: -6rem;
   }
 
-  .lg\:-mt-96{
-    margin-top: -24rem;
-  }
-
   .lg\:block{
     display: block;
   }
@@ -1824,12 +1807,12 @@ Ensure the default browser behavior of the `hidden` attribute.
     margin-top: 0px;
   }
 
-  .xl\:-mt-72{
-    margin-top: -18rem;
+  .xl\:-mt-550{
+    margin-top: -500px;
   }
 
-  .xl\:-mt-80{
-    margin-top: -20rem;
+  .xl\:block{
+    display: block;
   }
 
   .xl\:px-20{

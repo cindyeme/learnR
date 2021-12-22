@@ -9,8 +9,8 @@ const Banner = () => (
   <section className="relative">
     {/* <div class="triangle overflow-hidden w-full" /> */}
     {/* <div class="angle" /> */}
-    <div class="spikes "></div>
-    <div className="relative container mx-auto px-4 banner -mt-80 xl:-mt-80 lg:-mt-96">
+    <div class="spikes hidden xl:block"></div>
+    <div className="relative container mx-auto px-4 banner pt-48 xl:-mt-550">
       <div className="lg:grid gap-x-4 lg:grid-cols-12">
         <div className="wlc-text col-span-full lg:col-span-7">
           <h1 className="lg:text-6xl text-4xl font-bolder tracking-wide lg:font-bold text-white leading-snug banner_caption">

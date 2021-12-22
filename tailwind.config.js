@@ -49,7 +49,7 @@ module.exports = {
         8: "2rem",
       },
       margin: {
-        "550": "550px"
+        "550": "500px"
       },
       width: {
         550: "550px",

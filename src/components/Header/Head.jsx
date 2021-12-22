@@ -43,7 +43,7 @@ function Header() {
             <button
               type="button"
               onClick={handleClick}
-              className="lg:hidden focus:outline-none mr-3"
+              className="lg:hidden focus:outline-none"
             >
               {open ? (
                 <svg
