@@ -23,43 +23,51 @@ LearnR is an educators application that aims to bring together students and teac
 * [Copyright](#copyright)
 
 
-Getting Started with Create React App
+## Getting Started.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Make sure you have nodejs installed by running the following command:
 
-## Available Scripts
+```bash
+node -v
+```
 
-In the project directory, you can run:
+If the output is not the version of your nodejs installation, install nodejs from [here](https://nodejs.org/en/download/)
 
-### `npm start`
+After installing nodejs install [yarn](https://www.npmjs.com/package/yarn) if you don't have it installed then run `yarn` or `yarn install` to install all the project's dependencies:
+
+
+## STARTING THE DEVELOPMENT SERVER
+### `yarn start`
 
 Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## RUNNING YARN COMMANDS
 
-### `npm test`
+To add a dependency, run.\
+### `yarn add [package]`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+To remove a dependency, run.\
 
-### `npm run build`
+### `yarn remove [package] `
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Editor setup
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+We're using eslint for linting and prettier for code formating, make sure you install eslint and prettier plugins in your editor so you can
+see linting errors as you code and have your code formatted on save by prettier. If formatOnSave doesn't work please google how to set up
+format on save for the eslint & prettier plugins in your editor 🙃
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Project structure
 
-### `npm run eject`
+- All components are in the components folder and styles for those components are in the styles folder.
+- Assets are in the assets folder, including images
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Contributing
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+For detailed information on how to go about contribution. Check out the [Contribution Guide](docs/CONTRIBUTING.md)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+**Before sending a PR or making a merge make sure you code is properly formatted.** You can easily do that by running
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```bash
+yarn format # in project directory
+```
