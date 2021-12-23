@@ -5,7 +5,7 @@ import { useFormik } from "formik";
 import { PulseLoader } from "react-spinners";
 import { Link } from "react-router-dom";
 
-import { Input } from "../../components/Utils/Textfields";
+import { Input } from "../../components/utils/Textfields";
 import Button from "../../components/Button/Button";
 import Logo from "../../components/Logo/Logo";
 import "../../components/Svg/svg.css";

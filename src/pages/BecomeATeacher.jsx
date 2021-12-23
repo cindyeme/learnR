@@ -7,7 +7,7 @@ import * as Yup from "yup";
 import { useFormik } from "formik";
 import '../components/Svg/svg.css';
 
-import { Input, PasswordInput, Select } from "../components/Utils/Textfields";
+import { Input, PasswordInput, Select } from "../components/utils/Textfields";
 import Button from "../components/Button/Button";
 import Logo from "../components/Logo/Logo";
 

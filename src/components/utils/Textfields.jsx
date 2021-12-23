@@ -1,5 +1,4 @@
-import React from 'react';
-
+import { useState } from 'react';
 // Within this component lives all the custom inputs used for the onboarding pages
 
 // Input
@@ -48,7 +47,7 @@ export const Input = ({
 
 // Password-Input
 export const PasswordInput = ({ name, label, placeholder, onChange, value, handleBlur, required }) => {
-  const [show, setShow] = React.useState(true);
+  const [show, setShow] = useState(true);
   const togglePasswordVisiblity = () => {
     setShow(!show);
   };

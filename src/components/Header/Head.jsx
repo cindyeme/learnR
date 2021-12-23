@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from "react";
 // import { withRouter } from 'react-router';
 import { Link, NavLink } from "react-router-dom";
-import Transition from '../Utils/Transition';
+import Transition from '../utils/Transition';
 import logo from '../../assets/img/logo-m.png';
 
 function Header() {

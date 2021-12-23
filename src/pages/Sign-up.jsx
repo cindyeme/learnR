@@ -6,7 +6,7 @@ import { faUserPlus } from "@fortawesome/free-solid-svg-icons";
 import * as Yup from "yup";
 import { useFormik } from "formik";
 
-import { Input, PasswordInput } from "../components/Utils/Textfields";
+import { Input, PasswordInput } from "../components/utils/Textfields";
 import Button from "../components/Button/Button";
 import Logo from "../components/Logo/Logo";
 import "../components/Svg/svg.css";
