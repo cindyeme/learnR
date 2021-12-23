@@ -3,9 +3,7 @@ import { Error5 } from "../components/error/Errors";
 
 const Error500 = () => (
   <Layout>
-    <section>
-      <Error5 />
-    </section>
+    <Error5 />
   </Layout>
 );
 

@@ -9,13 +9,11 @@ import Teachers from "../containers/landingPage/Teachers";
 const Home = () => {
   return (
     <Layout>
-      <section>
-        <Banner />
-        <AboutBrief />
-        <Discover />
-        <Explore />
-        <Teachers />
-      </section>
+      <Banner />
+      <AboutBrief />
+      <Discover />
+      <Explore />
+      <Teachers />
     </Layout>
   );
 }

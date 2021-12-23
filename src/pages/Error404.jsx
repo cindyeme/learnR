@@ -3,9 +3,7 @@ import { Error4 } from "../components/error/Errors";
 
 const Error404 = () => (
   <Layout>
-    <section>
-      <Error4 />
-    </section>
+    <Error4 />
   </Layout>
 );
 

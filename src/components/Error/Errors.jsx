@@ -4,11 +4,11 @@ import error_500 from '../../assets/img/error-500.svg';
 
 // Error 404
 export const Error4 = () => (
-  <div className="max-w-5xl mx-auto px-5 py-10">
+  <section className="max-w-5xl mx-auto px-5 py-10">
     <Link to="/" className='text-center flex flex-col justify-center items-center'>
       <img src={error_404} alt="error" className="img-fluid" />
     </Link>
-  </div>
+  </section>
 );
 
 
