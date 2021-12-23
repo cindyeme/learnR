@@ -6,8 +6,8 @@ import { PulseLoader } from "react-spinners";
 import { Link } from "react-router-dom";
 
 import { PasswordInput } from "../../components/utils/Textfields";
-import Button from "../../components/Button/Button";
-import Logo from "../../components/Logo/Logo";
+import Button from "../../components/button/Button";
+import Logo from "../../components/logo/Logo";
 
 const ResetPassword = ({ resetPassword, loadState }) => {
   const formik = useFormik({

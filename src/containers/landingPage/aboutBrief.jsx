@@ -1,6 +1,6 @@
-import { Link } from 'react-router-dom';
-import aboutImg from '../../assets/img/course-appp.svg';
-import Button from '../../components/Button/Button';
+import { Link } from "react-router-dom";
+import aboutImg from "../../assets/img/course-appp.svg";
+import Button from "../../components/button/Button";
 
 const AboutBrief = () => (
   <section className="relative container mx-auto mt-4 xl:mt-0">
@@ -38,7 +38,9 @@ const AboutBrief = () => (
             <li>129k Online Available Notes</li>
           </ul>
           <div className="mt-10">
-            <Button className="rounded-full"><Link to="/signin">Get Started</Link> </Button>
+            <Button className="rounded-full">
+              <Link to="/signin">Get Started</Link>{" "}
+            </Button>
           </div>
         </div>
       </div>

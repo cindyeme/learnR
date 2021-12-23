@@ -3,8 +3,8 @@ import { faBookOpen } from "@fortawesome/free-solid-svg-icons";
 import { faFolderOpen } from "@fortawesome/free-solid-svg-icons";
 import teacher from "../../assets/img/teacher.png";
 import Explore_data from "../../constants/explore.json";
-import { Waves } from "../../components/Svg/Svg";
-import Button from "../../components/Button/Button";
+import { Waves } from "../../components/svg/Svg";
+import Button from "../../components/button/Button";
 import book from '../../assets/img/book-rm.png';
 
 const Explore = () => (

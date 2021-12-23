@@ -6,12 +6,11 @@ import { faUnlock } from "@fortawesome/free-solid-svg-icons";
 import * as Yup from "yup";
 import { useFormik } from "formik";
 import { Input, PasswordInput } from "../components/utils/Textfields";
-import Button from "../components/Button/Button";
-import Logo from "../components/Logo/Logo";
+import Button from "../components/button/Button";
+import Logo from "../components/logo/Logo";
 import "../styles/svg.css";
 
 const SignIn = ({ loadState }) => {
-
   // Form Processing Using Formik - Yup for form validation
   const formik = useFormik({
     initialValues: {
@@ -109,7 +108,11 @@ const SignIn = ({ loadState }) => {
 
                 {/* Submit */}
                 <div className="my-4">
-                  <Button disabled={loadState} type="submit" className="rounded-md w-full bg-primary-amber font-semibold flex space-x-3 justify-center">
+                  <Button
+                    disabled={loadState}
+                    type="submit"
+                    className="rounded-md w-full bg-primary-amber font-semibold flex space-x-3 justify-center"
+                  >
                     {loadState ? (
                       <PulseLoader size={20} loading color="white" />
                     ) : (
@@ -124,7 +127,10 @@ const SignIn = ({ loadState }) => {
                 {/* SIgn up */}
                 <p className="text-center text-grayish-900">
                   Don't have an account?{" "}
-                  <Link to="/signup" className="text-primary-700 font-semibold hover:text-primary-amber">
+                  <Link
+                    to="/signup"
+                    className="text-primary-700 font-semibold hover:text-primary-amber"
+                  >
                     Sign up
                   </Link>
                 </p>
@@ -136,6 +142,5 @@ const SignIn = ({ loadState }) => {
     </section>
   );
 };
-
 
 export default SignIn;

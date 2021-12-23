@@ -5,11 +5,11 @@ import { faArrowLeft } from "@fortawesome/free-solid-svg-icons";
 import { faPaperPlane } from "@fortawesome/free-solid-svg-icons";
 import * as Yup from "yup";
 import { useFormik } from "formik";
-import '../styles/svg.css';
+import "../styles/svg.css";
 
 import { Input, PasswordInput, Select } from "../components/utils/Textfields";
-import Button from "../components/Button/Button";
-import Logo from "../components/Logo/Logo";
+import Button from "../components/button/Button";
+import Logo from "../components/logo/Logo";
 
 const BecomeATeacher = ({ loadState }) => {
   const formik = useFormik({

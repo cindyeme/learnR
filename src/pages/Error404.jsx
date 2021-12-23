@@ -1,5 +1,5 @@
 import Layout from "../layout/Layout";
-import { Error4 } from "../components/Error/Errors";
+import { Error4 } from "../components/error/Errors";
 
 const Error404 = () => (
   <Layout>

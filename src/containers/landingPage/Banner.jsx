@@ -3,7 +3,7 @@ import "./banner.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSearch } from "@fortawesome/free-solid-svg-icons";
 import bannerImg from "../../assets/img/banner-img.svg";
-import Button from "../../components/Button/Button";
+import Button from "../../components/button/Button";
 
 const Banner = () => (
   <section className="relative">

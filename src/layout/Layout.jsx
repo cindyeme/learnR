@@ -1,16 +1,14 @@
-import BackToTop from '../components/BackToTop/scrollButton';
-import Footer from '../components/Footer/Footer';
-import Header from "../components/Header/Head";
+import BackToTop from "../components/backToTop/scrollButton";
+import Footer from "../components/footer/Footer";
+import Header from "../components/header/Head";
 
-const Layout = ({children}) => (
+const Layout = ({ children }) => (
   <>
     <Header />
-    <main>
-      {children}
-    </main>
+    <main>{children}</main>
     <BackToTop />
     <Footer />
   </>
-)
+);
 
 export default Layout;

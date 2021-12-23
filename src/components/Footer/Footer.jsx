@@ -5,7 +5,7 @@ import { faFacebookF } from "@fortawesome/free-brands-svg-icons";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faTwitter } from "@fortawesome/free-brands-svg-icons";
 import { faInstagram } from "@fortawesome/free-brands-svg-icons";
-import Logo from "../Logo/Logo";
+import Logo from "../logo/Logo";
 
 function Footer() {
   return (
@@ -285,7 +285,10 @@ function Footer() {
           {/* Copyrights note */}
           <div className="text-sm  mr-4">
             Made by{" "}
-            <a className="text-primary-amber font-bold hover:underline" href="https://">
+            <a
+              className="text-primary-amber font-bold hover:underline"
+              href="https://"
+            >
               MWS28 Team
             </a>
             . All rights reserved.

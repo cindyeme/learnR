@@ -6,8 +6,8 @@ import { PulseLoader } from "react-spinners";
 import { Link } from "react-router-dom";
 
 import { Input } from "../../components/utils/Textfields";
-import Button from "../../components/Button/Button";
-import Logo from "../../components/Logo/Logo";
+import Button from "../../components/button/Button";
+import Logo from "../../components/logo/Logo";
 import "../../styles/svg.css";
 
 const RequestToken = ({ requestToken, loadState }) => {
@@ -96,6 +96,5 @@ const RequestToken = ({ requestToken, loadState }) => {
     </section>
   );
 };
-
 
 export default RequestToken;
