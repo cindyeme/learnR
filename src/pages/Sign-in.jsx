@@ -5,9 +5,9 @@ import { faArrowLeft } from "@fortawesome/free-solid-svg-icons";
 import { faUnlock } from "@fortawesome/free-solid-svg-icons";
 import * as Yup from "yup";
 import { useFormik } from "formik";
-import { Input, PasswordInput } from "../components/utils/Textfields";
+import { Input, PasswordInput } from "../components/Utils/Textfields";
 import Button from "../components/Button/Button";
-import logo from '../assets/img/logo.png';
+import Logo from "../components/Logo/Logo";
 
 
 const SignIn = ({ loadState }) => {
@@ -47,21 +47,13 @@ const SignIn = ({ loadState }) => {
                 <FontAwesomeIcon icon={faArrowLeft} />
               </span>
             </Link>
-            <Link to="/" className="flex space-x-1 justify-center" aria-label="LearnR">
-              <img src={logo} alt="logo" className="img-fluid w-20 h-20" />
-              <h3 className="flex items-center uppercase">
-                <span className="text-2xl font-bold text-grayish-900">
-                  Learn
-                </span>{" "}
-                <span className="text-primary-amber text-2xl font-bolder">R</span>
-              </h3>
-            </Link>
+            <Logo />
             <div>
               <h4 className="h2 md:text-xl text-primary-700 uppercase font-bolder text-xl tracking-wide py-4 text-center">
-                Sign In
+                Welcome Back!
               </h4>
               <p className=" text-lg font-bold text-gray-500 text-center">
-                Welcome Back!
+                Sign in to your account
               </p>
               <hr className="mt-3" />
             </div>
@@ -76,7 +68,8 @@ const SignIn = ({ loadState }) => {
                     label="Email"
                     value={formik.values.email}
                     onChange={formik.handleChange}
-                    // placeholder="Ex. frankokwara@gmail.com"
+                    // placeholder="Ex. youremail@domain.com"
+                    autoFocus="true"
                     {...formik.getFieldProps("email")}
                   />
                   {formik.touched.email && formik.errors.email ? (

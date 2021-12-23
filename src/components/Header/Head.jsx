@@ -1,7 +1,8 @@
 import React, { useState, useEffect, useRef } from "react";
 // import { withRouter } from 'react-router';
 import { Link, NavLink } from "react-router-dom";
-import Transition from '../utils/Transition';
+import Transition from '../Utils/Transition';
+import logo from '../../assets/img/logo-m.png';
 
 function Header() {
   const [top, setTop] = useState(true);
@@ -33,11 +34,18 @@ function Header() {
           <div className="flex flex-wrap items-center justify-between">
             <Link
               to="/"
-              className="flex items-center uppercase"
+              className="flex space-x-3 justify-center"
               aria-label="LearnR"
             >
-              <span className="text-xl font-bold">Learn</span>{" "}
-              <span className="text-primary-800 text-2xl font-bolder">R</span>
+              <img src={logo} alt="logo" className="img-fluid w-12 h-10" />
+              <h3 className="flex items-center uppercase">
+                <span className="text-xl font-bold">
+                  Learn
+                </span>{" "}
+                <span className="text-primary-amber text-2xl font-bolder">
+                  R
+                </span>
+              </h3>
             </Link>
             {/* Hamburger */}
             <button
@@ -124,7 +132,7 @@ function Header() {
                 {/* CTA */}
                 <li>
                   <NavLink
-                    to="/sign-in"
+                    to="/signin"
                     activeClassName=""
                     className="font-bold outline-none uppercase tracking-wider focus:outline-none focus:shadow-none transition-all duration-300 rounded-lg py-2.5 px-6 text-xs leading-normal text-white bg-amber-500 hover:bg-amber-700 focus:bg-amber-400 active:bg-amber-800 shadow-md-amber hover:shadow-lg-amber"
                   >

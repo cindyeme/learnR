@@ -1,0 +1,30 @@
+.Toastify__toast--success {
+  background: rgb(237, 247, 237) !important;
+  color: rgb(30, 70, 32) !important;
+}
+.Toastify__toast--info {
+  color: rgb(13, 60, 97) !important;
+  background: rgb(232, 244, 253) !important;
+}
+.Toastify__toast--warning {
+  color: rgb(102, 60, 0) !important;
+  background: rgb(255, 244, 229) !important;
+}
+.Toastify__toast--error {
+  color: rgb(97, 26, 21) !important;
+  background: rgb(253, 236, 234) !important;
+}
+.toastBody {
+  font-size: 0.875rem !important;
+  display: flex;
+  flex-wrap: wrap;
+}
+.toastProgress {
+  height: 1.2rem;
+}
+.Toastify__toast-container {
+  font-size: 0.875rem !important;
+}
+.Toastify__close-button {
+  display: none;
+}

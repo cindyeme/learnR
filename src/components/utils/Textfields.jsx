@@ -15,6 +15,7 @@ export const Input = ({
   handleBlur,
   style,
   border,
+  autoFocus
 }) => (
   <div className="input-group">
     <label
@@ -36,10 +37,11 @@ export const Input = ({
       className={` ${
           disabled ? 'text-gray-500' : 'text-gray-800'
         } focus:shadow-xl hover:border-primary-800 mt-3
-         bg-gray-100 focus:bg-white focus:outline-none placeholder-opacity-75 form-input py-2 px-2 sm:px-4 w-full h-12 text-left text-md rounded hover:shadow-none 
-         border border-primary-fade text-grayish-900 font-bold ${border}`}
+         bg-gray-100 focus:bg-white focus:outline-none placeholder-opacity-5 form-input py-2 px-2 sm:px-4 w-full h-12 text-left text-md rounded hover:shadow-none 
+         border border-primary-fade text-grayish-900 font-semibold ${border}`}
       style={style}
       disabled={disabled}
+      autoFocus={autoFocus}
     />
   </div>
 );
@@ -69,7 +71,7 @@ export const PasswordInput = ({ name, label, placeholder, onChange, value, handl
           onBlur={handleBlur}
           className="focus:shadow-xl hover:border-primary-800 mt-3
          bg-gray-100 focus:bg-white focus:outline-none placeholder-opacity-75 form-input py-2 px-2 sm:px-4 w-full h-12 text-left text-md rounded hover:shadow-none 
-         border border-primary-fade text-grayish-900 font-bold"
+         border border-primary-fade text-grayish-900 font-semibold tracking-wider"
           type={show ? "password" : "text"}
         />
         <div className="absolute inset-y-0 right-0 pr-3 grid items-center text-sm leading-5">

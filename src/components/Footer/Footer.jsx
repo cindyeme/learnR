@@ -5,6 +5,7 @@ import { faFacebookF } from "@fortawesome/free-brands-svg-icons";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faTwitter } from "@fortawesome/free-brands-svg-icons";
 import { faInstagram } from "@fortawesome/free-brands-svg-icons";
+import Logo from "../Logo/Logo";
 
 function Footer() {
   return (
@@ -14,19 +15,10 @@ function Footer() {
         <div className="grid sm:grid-cols-12 gap-8 py-8 md:py-12 border-t border-gray-200">
           {/* 1st block */}
           <div className="sm:col-span-12 lg:col-span-3">
-            <div className="lg:-mt-24 p-6 border-t-8 border-primary-800 bg-white flex flex-col justify-center items-center space-y-3">
+            <div className="lg:-mt-24 p-6 border-t-8 border-primary-800 bg-white flex flex-col justify-center items-center space-y-">
               {/* Logo */}
-              <Link
-                to="/"
-                className="flex items-center uppercase"
-                aria-label="LearnR"
-              >
-                <span className="text-xl font-bold text-grayish-900">
-                  Learn
-                </span>{" "}
-                <span className="text-primary-800 text-2xl font-bolder">R</span>
-              </Link>
-              <p className="text-sm py-4 leading-relaxed tracking-wide text-gray-600 text-center font-medium">
+              <Logo />
+              <p className="text-sm pb-6 leading-relaxed tracking-wide text-gray-600 text-center font-medium">
                 LearnR aims to bring together students and teachers on the
                 community platform. We take our mission of increasing global
                 access to quality education seriously. We connect learners to

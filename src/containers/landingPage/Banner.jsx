@@ -35,7 +35,7 @@ const Banner = () => (
                 className="form-input w-full h-15 rounded-l-md pl-10 md:pl-14 relative"
                 placeholder="What do you want to learn?"
               />
-              <Button className="rounded-r-md">Search</Button>
+              <Button className="rounded-r-md bg-primary-amber">Search</Button>
             </form>
           </div>
           <ul className="mt-8 flex  space-x-4 text-white font-medium">
