@@ -5,7 +5,7 @@ import { faArrowLeft } from "@fortawesome/free-solid-svg-icons";
 import { faPaperPlane } from "@fortawesome/free-solid-svg-icons";
 import * as Yup from "yup";
 import { useFormik } from "formik";
-import '../components/Svg/svg.css';
+import '../styles/svg.css';
 
 import { Input, PasswordInput, Select } from "../components/utils/Textfields";
 import Button from "../components/Button/Button";

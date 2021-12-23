@@ -8,7 +8,7 @@ import { useFormik } from "formik";
 import { Input, PasswordInput } from "../components/utils/Textfields";
 import Button from "../components/Button/Button";
 import Logo from "../components/Logo/Logo";
-import "../components/Svg/svg.css";
+import "../styles/svg.css";
 
 const SignIn = ({ loadState }) => {
 

@@ -8,7 +8,7 @@ import { Link } from "react-router-dom";
 import { Input } from "../../components/utils/Textfields";
 import Button from "../../components/Button/Button";
 import Logo from "../../components/Logo/Logo";
-import "../../components/Svg/svg.css";
+import "../../styles/svg.css";
 
 const RequestToken = ({ requestToken, loadState }) => {
   const formik = useFormik({
