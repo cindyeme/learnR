@@ -8,7 +8,7 @@ import { useFormik } from "formik";
 import { Input, PasswordInput } from "../components/Utils/Textfields";
 import Button from "../components/Button/Button";
 import Logo from "../components/Logo/Logo";
-
+import "../components/Svg/svg.css";
 
 const SignIn = ({ loadState }) => {
 
@@ -35,7 +35,7 @@ const SignIn = ({ loadState }) => {
   });
 
   return (
-    <section>
+    <section className="sprinkle">
       <div className="relative transform translate-y-12 px-3 sm:px-0 py-10">
         <div className="max-w-xl mx-auto p-4 sm:p-6 bg-white shadow rounded">
           <div className="flex flex-col space-y-">

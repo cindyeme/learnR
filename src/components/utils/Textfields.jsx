@@ -145,11 +145,26 @@ export const Select = ({ choices, label, name, onChange, defaultValue, className
   const currentValue = value || defaultValue;
   return (
     <div className="flex flex-col">
-      <label htmlFor={name} className="pb-3 text-gray-800 sm:text-base font-medium text-sm" style={style}>
+      <label
+        htmlFor={name}
+        className="pb-3 text-gray-800 sm:text-base font-medium text-sm"
+        style={style}
+      >
         {label}
       </label>
-      <select id={name} onChange={onChange} name={name} className={className} disabled={disabled} value={currentValue}>
-        <option className="text-gray-400 placeholder-opacity-50" value={defaultValue} disabled>
+      <select
+        id={name}
+        onChange={onChange}
+        name={name}
+        className={`form-select h-12 rounded hover:shadow-none focus:outline-none focus:border-primary-800 focus:shadow-xl hover:border-primary-800 border border-primary-fade text-grayish-900 bg-gray-100 focus:bg-white ${className}`}
+        disabled={disabled}
+        value={currentValue}
+      >
+        <option
+          className="text-gray-400 placeholder-opacity-50"
+          value={defaultValue}
+          disabled
+        >
           {defaultValue}
         </option>
         {choices.map((choice, index) => (

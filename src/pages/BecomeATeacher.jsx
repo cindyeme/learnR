@@ -2,21 +2,23 @@ import { Link } from "react-router-dom";
 import { PulseLoader } from "react-spinners";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowLeft } from "@fortawesome/free-solid-svg-icons";
-import { faUserPlus } from "@fortawesome/free-solid-svg-icons";
+import { faPaperPlane } from "@fortawesome/free-solid-svg-icons";
 import * as Yup from "yup";
 import { useFormik } from "formik";
+import '../components/Svg/svg.css';
 
-import { Input, PasswordInput } from "../components/Utils/Textfields";
+import { Input, PasswordInput, Select } from "../components/Utils/Textfields";
 import Button from "../components/Button/Button";
 import Logo from "../components/Logo/Logo";
-import "../components/Svg/svg.css";
 
-const SignUp = ({ loadState }) => {
+const BecomeATeacher = ({ loadState }) => {
   const formik = useFormik({
     initialValues: {
       firstName: "",
       lastName: "",
       email: "",
+      category: "",
+      interest: "",
       password: "",
     },
 
@@ -55,10 +57,10 @@ const SignUp = ({ loadState }) => {
             <Logo />
             <div>
               <h4 className="h2 md:text-xl text-primary-700 uppercase font-bolder text-xl tracking-wide py-4 text-center">
-                Create Account
+                Create Teacher's Account
               </h4>
-              <p className=" text-lg font-bold text-gray-500 text-center">
-                Sign up to get started
+              <p className=" text-base font-semibold text-gray-500 text-center">
+                Become a recognized teacher in LearnR community platform
               </p>
               <hr className="mt-3" />
             </div>
@@ -122,6 +124,46 @@ const SignUp = ({ loadState }) => {
                     ) : null}
                   </div>
 
+                  {/* Category */}
+                  <div className="form-group col-span-full md:col-span-1 mb-4">
+                    <Select
+                      name="cate"
+                      label="Category"
+                      value={formik.values.category}
+                      defaultValue="--select category--"
+                      choices={[
+                        "PreSchool",
+                        "Primary",
+                        "Junior secondary",
+                        "Senior secondary",
+                        "Tertiary",
+                      ]}
+                      {...formik.getFieldProps("category")}
+                    />
+                    {formik.touched.category && formik.errors.category ? (
+                      <p className="pt-1 text-sm text-red-600">
+                        {formik.errors.category}
+                      </p>
+                    ) : null}
+                  </div>
+
+                  {/* Interest */}
+                  <div className="form-group col-span-full md:col-span-1 mb-4">
+                    <Select
+                      name="interest"
+                      label="Interest Areas"
+                      value={formik.values.interest}
+                      defaultValue="--select interest--"
+                      choices={["Arts", "Science", "General Studies", "Others"]}
+                      {...formik.getFieldProps("interest")}
+                    />
+                    {formik.touched.interest && formik.errors.interest ? (
+                      <p className="pt-1 text-sm text-red-600">
+                        {formik.errors.interest}
+                      </p>
+                    ) : null}
+                  </div>
+
                   {/* Password */}
                   <div className="form-group mb-4 col-span-full">
                     <PasswordInput
@@ -151,8 +193,8 @@ const SignUp = ({ loadState }) => {
                       <PulseLoader size={20} loading color="white" />
                     ) : (
                       <>
-                        <span>Sign Up</span>
-                        <FontAwesomeIcon icon={faUserPlus} />
+                        <span>Submit</span>
+                        <FontAwesomeIcon icon={faPaperPlane} />
                       </>
                     )}
                   </Button>
@@ -193,4 +235,4 @@ const SignUp = ({ loadState }) => {
   );
 };
 
-export default SignUp;
+export default BecomeATeacher;
