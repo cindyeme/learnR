@@ -32,7 +32,7 @@ const Banner = () => (
                 type="search"
                 name="search"
                 id="search"
-                className="form-input w-full h-15 rounded-l-md pl-10 md:pl-14 relative"
+                className="form-input w-full h-15 rounded-l-md pl-10 md:pl-14 relative text-gray-900"
                 placeholder="What do you want to learn?"
               />
               <Button className="rounded-r-md bg-primary-amber">Search</Button>
