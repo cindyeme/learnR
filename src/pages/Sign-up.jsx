@@ -44,7 +44,7 @@ const SignUp = ({ loadState }) => {
       <div className="relative transform translate-y-12 px-3 sm:px-0 py-10">
         <div className="max-w-xl mx-auto p-4 sm:p-6 bg-white shadow rounded">
           <div className="flex flex-col space-y-">
-            <Link to="/" title="Go Back">
+            <Link to="/learnR" title="Go Back">
               <span
                 className=" text-primary-600 px-3 py-2 shadow-inner
               hover:shadow transition-shadow duration-300 ease-linear text-lg"

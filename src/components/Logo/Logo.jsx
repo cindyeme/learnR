@@ -5,7 +5,7 @@ export default function Logo() {
   return (
     <div>
       <Link
-        to="/"
+        to="/learnR"
         className="flex space-x-1 justify-center"
         aria-label="LearnR"
       >

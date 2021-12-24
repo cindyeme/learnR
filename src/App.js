@@ -15,7 +15,7 @@ import BecomeATeacher from './pages/BecomeATeacher';
 function App() {
   return (
     <Routes>
-      <Route path="/" element={<Home />} />
+      <Route path="/learnR" element={<Home />} />
       {/* <Route path="/about-us" element={<AboutUs />} /> */}
       <Route path="/signin" element={<SignIn />} />
       <Route path="/signup" element={<SignUp />} />
@@ -24,7 +24,7 @@ function App() {
       <Route path="/become-a-teacher" element={<BecomeATeacher />} />
       <Route path="*" element={<Error404 />} />
       <Route path="/server-error" element={<Error500 />} />
-      {/* <Route path="*" element={<Navigate to="/not-found" />} /> */}
+      {/* <Route path="" element={<Navigate to="/not-found" />} /> */}
     </Routes>
   );
 }

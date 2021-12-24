@@ -1,8 +1,8 @@
 import React, { useState, useEffect, useRef } from "react";
 // import { withRouter } from 'react-router';
 import { Link, NavLink } from "react-router-dom";
-import Transition from '../utils/Transition';
-import logo from '../../assets/img/logo-m.png';
+import Transition from "../utils/Transition";
+import logo from "../../assets/img/logo-m.png";
 
 function Header() {
   const [top, setTop] = useState(true);
@@ -33,15 +33,13 @@ function Header() {
         <div className="max-w-full bg-primary-600 lg:bg-transparent mx-auto px-4 lg:px-16 xl:px-20 py-4">
           <div className="flex flex-wrap items-center justify-between">
             <Link
-              to="/"
+              to="/learnR"
               className="flex space-x-3 justify-center"
               aria-label="LearnR"
             >
               <img src={logo} alt="logo" className="img-fluid w-12 h-10" />
               <h3 className="flex items-center uppercase">
-                <span className="text-xl font-bold">
-                  Learn
-                </span>{" "}
+                <span className="text-xl font-bold">Learn</span>{" "}
                 <span className="text-primary-amber text-2xl font-bolder">
                   R
                 </span>
@@ -88,10 +86,14 @@ function Header() {
                 {/* Home */}
                 <li>
                   <NavLink
-                    exact
-                    to="/"
-                    activeClassName="text-primary-900"
-                    className=" text-xs uppercase flex items-center font-semibold px-3 py-2 hover:text-primary-900 transition-all duration-300 ease-out "
+                    end
+                    to="/learnR"
+                    className={({ isActive }) =>
+                      "text-xs uppercase flex items-center font-semibold px-4 py-2 hover:text-primary-900 transition-all duration-300 ease-out" +
+                      (isActive
+                        ? " text-primary-900 bg-grayish-light rounded"
+                        : "")
+                    }
                   >
                     Home
                   </NavLink>
@@ -99,10 +101,14 @@ function Header() {
                 {/* About */}
                 <li>
                   <NavLink
-                    exact
+                    end
                     to="/about-us"
-                    activeClassName="bg-grayish-light"
-                    className=" text-xs uppercase font-semibold px-3 py-2 hover:text-primary-900 transition-all duration-300 ease-out"
+                    className={({ isActive }) =>
+                      "text-xs uppercase flex items-center font-semibold px-4 py-2 hover:text-primary-900 transition-all duration-300 ease-out" +
+                      (isActive
+                        ? " text-primary-900 bg-grayish-light rounded"
+                        : "")
+                    }
                   >
                     About Us
                   </NavLink>
@@ -110,10 +116,14 @@ function Header() {
                 {/* Courses */}
                 <li>
                   <NavLink
-                    exact
+                    end
                     to="/courses"
-                    activeClassName="bg-grayish-light"
-                    className=" text-xs uppercase font-semibold px-3 py-2 hover:text-primary-900 transition-all duration-300 ease-out"
+                    className={({ isActive }) =>
+                      "text-xs uppercase flex items-center font-semibold px-4 py-2 hover:text-primary-900 transition-all duration-300 ease-out" +
+                      (isActive
+                        ? " text-primary-900 bg-grayish-light rounded"
+                        : "")
+                    }
                   >
                     Courses
                   </NavLink>
@@ -121,10 +131,14 @@ function Header() {
                 {/* Become-a-teacher */}
                 <li>
                   <NavLink
-                    exact
+                    end
                     to="/become-a-teacher"
-                    activeClassName="bg-grayish-light"
-                    className=" text-xs uppercase font-semibold px-3 py-2 hover:text-primary-900 transition-all duration-300 ease-out"
+                    className={({ isActive }) =>
+                      "text-xs uppercase flex items-center font-semibold px-4 py-2 hover:text-primary-900 transition-all duration-300 ease-out" +
+                      (isActive
+                        ? " text-primary-900 bg-grayish-light rounded"
+                        : "")
+                    }
                   >
                     Become A Teacher
                   </NavLink>
@@ -170,10 +184,12 @@ function Header() {
               {/* Home */}
               <li className="mt-4">
                 <NavLink
-                  exact
-                  to="/"
-                  activeClassName="bg-grayish-light"
-                  className="text-gray-700 text-xs uppercase font-semibold px-3 py-2 hover:text-primary-900 transition-all duration-300 ease-out "
+                  end
+                  to="/learnR"
+                  className={({ isActive }) =>
+                    "text-gray-700 text-xs uppercase font-semibold px-3 py-2 hover:text-primary-900 transition-all duration-300 ease-out pr-36" +
+                    (isActive ? " text-primary-900 " : "")
+                  }
                 >
                   Home
                 </NavLink>
@@ -181,10 +197,12 @@ function Header() {
               {/* About */}
               <li className="mt-4">
                 <NavLink
-                  exact
+                  end
                   to="/about-us"
-                  activeClassName="bg-grayish-light"
-                  className="text-gray-700 text-xs uppercase font-semibold px-3 py-2 hover:text-primary-900 transition-all duration-300 ease-out"
+                  className={({ isActive }) =>
+                    "text-gray-700 text-xs uppercase font-semibold px-3 py-2 hover:text-primary-900 transition-all duration-300 ease-out pr-36" +
+                    (isActive ? " text-primary-900 " : "")
+                  }
                 >
                   About Us
                 </NavLink>
@@ -192,10 +210,12 @@ function Header() {
               {/* Courses */}
               <li className="mt-4">
                 <NavLink
-                  exact
+                  end
                   to="/courses"
-                  activeClassName="bg-grayish-light"
-                  className="text-gray-700 text-xs uppercase font-semibold px-3 py-2 hover:text-primary-900 transition-all duration-300 ease-out"
+                  className={({ isActive }) =>
+                    "text-gray-700 text-xs uppercase font-semibold px-3 py-2 hover:text-primary-900 transition-all duration-300 ease-out pr-36" +
+                    (isActive ? " text-primary-900 " : "")
+                  }
                 >
                   Courses
                 </NavLink>
@@ -203,10 +223,12 @@ function Header() {
               {/* Become-a-teacher */}
               <li className="mt-4">
                 <NavLink
-                  exact
+                  end
                   to="/become-a-teacher"
-                  activeClassName="bg-grayish-light"
-                  className="text-gray-700 text-xs uppercase font-semibold px-3 py-2 hover:text-primary-900 transition-all duration-300 ease-out"
+                  className={({ isActive }) =>
+                    "text-gray-700 text-xs uppercase font-semibold px-3 py-2 hover:text-primary-900 transition-all duration-300 ease-out pr-36" +
+                    (isActive ? " text-primary-900 " : "")
+                  }
                 >
                   Become A Teacher
                 </NavLink>
