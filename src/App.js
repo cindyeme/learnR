@@ -15,7 +15,7 @@ import BecomeATeacher from './pages/BecomeATeacher';
 function App() {
   return (
     <Routes>
-      <Route path="/learnR" element={<Home />} />
+      <Route path="/" element={<Home />} />
       {/* <Route path="/about-us" element={<AboutUs />} /> */}
       <Route path="/signin" element={<SignIn />} />
       <Route path="/signup" element={<SignUp />} />
