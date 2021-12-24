@@ -1,23 +1,29 @@
 {
   "files": {
-    "main.css": "/learnR/static/css/main.76535123.css",
-    "main.js": "/learnR/static/js/main.03d86030.js",
+    "main.css": "/learnR/static/css/main.17bc4bb3.css",
+    "main.js": "/learnR/static/js/main.102f274b.js",
     "static/media/book-2.png": "/learnR/static/media/book-2.61598168449cc19498e0.png",
     "static/media/banner-img.svg": "/learnR/static/media/banner-img.664e2850e5790ddc330e44ff7cccf3bc.svg",
     "static/media/course-appp.svg": "/learnR/static/media/course-appp.c4973df3c921e9ba35c3b1c84127ce28.svg",
     "static/media/dots.png": "/learnR/static/media/dots.1e305f981d41a2c30adb.png",
     "static/media/book-rm.png": "/learnR/static/media/book-rm.998d77074a01a399c12f.png",
     "static/media/error-404.svg": "/learnR/static/media/error-404.1c2e36d663eac881eba4ae44bdb54b72.svg",
+    "static/media/bc-6.png": "/learnR/static/media/bc-6.6f5f3f220fb0e43c67d8.png",
     "static/media/blob.png": "/learnR/static/media/blob.e39506780c69b0fd8920.png",
+    "static/media/bc-4.jpg": "/learnR/static/media/bc-4.6391fed9442abbf5e406.jpg",
     "static/media/Online learning-pana.svg": "/learnR/static/media/Online learning-pana.678300444b204cb51ced.svg",
     "static/media/kids-with-kite.png": "/learnR/static/media/kids-with-kite.aac07e0f0979d6697293.png",
     "static/media/course-app.svg": "/learnR/static/media/course-app.876b639911b8f51d390e.svg",
+    "static/media/bc-2.jpg": "/learnR/static/media/bc-2.dfa762819bd0009cdbaf.jpg",
+    "static/media/bc-7.jpg": "/learnR/static/media/bc-7.e9235da79aaedc469879.jpg",
+    "static/media/bc-5.jpg": "/learnR/static/media/bc-5.8180f740ecf1bb8d71fa.jpg",
     "static/media/physics.jpg": "/learnR/static/media/physics.a585c868fcae58750c28.jpg",
     "static/media/error-500.svg": "/learnR/static/media/error-500.d9cc6c9a7ab8a8eda896944da854d78e.svg",
     "static/media/female-teach.svg": "/learnR/static/media/female-teach.3f2feb9ffd4e2dd7591c.svg",
     "static/media/teacher.svg": "/learnR/static/media/teacher.0639982d59f8afab711f.svg",
     "static/media/book.jpg": "/learnR/static/media/book.f053cf789237a7bf4a02.jpg",
     "static/media/error-404-2.svg": "/learnR/static/media/error-404-2.7aa8948a37e2f62f5a1b.svg",
+    "static/media/bc-3.jpg": "/learnR/static/media/bc-3.6162f9eae909674f322e.jpg",
     "static/media/error-404-1.svg": "/learnR/static/media/error-404-1.311a22813f48ffe2af12.svg",
     "static/media/teacher.jpg": "/learnR/static/media/teacher.8a0227bb7ccda6eacbf2.jpg",
     "static/media/teacher-3.jpg": "/learnR/static/media/teacher-3.56a9c6cb75d25a17d722.jpg",
@@ -37,16 +43,17 @@
     "static/media/teacher.png": "/learnR/static/media/teacher.ea8199cc5561b38f3023.png",
     "static/media/btech.jfif": "/learnR/static/media/btech.5d7b1415e5935a6f3bd1.jfif",
     "static/media/sprinkle.svg": "/learnR/static/media/sprinkle.d3c22742fbe4540852f9.svg",
+    "static/media/bc-1.jpg": "/learnR/static/media/bc-1.518b8a56741d5a850d44.jpg",
     "static/media/slick.svg": "/learnR/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/learnR/static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "static/media/slick.ttf": "/learnR/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "index.html": "/learnR/index.html",
     "static/media/slick.woff": "/learnR/static/media/slick.295183786cd8a1389865.woff",
-    "main.76535123.css.map": "/learnR/static/css/main.76535123.css.map",
-    "main.03d86030.js.map": "/learnR/static/js/main.03d86030.js.map"
+    "main.17bc4bb3.css.map": "/learnR/static/css/main.17bc4bb3.css.map",
+    "main.102f274b.js.map": "/learnR/static/js/main.102f274b.js.map"
   },
   "entrypoints": [
-    "static/css/main.76535123.css",
-    "static/js/main.03d86030.js"
+    "static/css/main.17bc4bb3.css",
+    "static/js/main.102f274b.js"
   ]
 }
