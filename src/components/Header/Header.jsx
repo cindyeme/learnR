@@ -33,7 +33,7 @@ function Header() {
         <div className="max-w-full bg-primary-600 lg:bg-transparent mx-auto px-4 lg:px-16 xl:px-20 py-4">
           <div className="flex flex-wrap items-center justify-between">
             <Link
-              to="/learnR"
+              to="/"
               className="flex space-x-3 justify-center"
               aria-label="LearnR"
             >
@@ -87,7 +87,7 @@ function Header() {
                 <li>
                   <NavLink
                     end
-                    to="/learnR"
+                    to="/"
                     className={({ isActive }) =>
                       "text-xs uppercase flex items-center font-semibold px-4 py-2 hover:text-primary-900 transition-all duration-300 ease-out" +
                       (isActive
@@ -185,7 +185,7 @@ function Header() {
               <li className="mt-4">
                 <NavLink
                   end
-                  to="/learnR"
+                  to="/"
                   className={({ isActive }) =>
                     "text-gray-700 text-xs uppercase font-semibold px-3 py-2 hover:text-primary-900 transition-all duration-300 ease-out pr-36" +
                     (isActive ? " text-primary-900 " : "")
