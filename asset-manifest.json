@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/learnR/static/css/main.2e10e90a.css",
-    "main.js": "/learnR/static/js/main.a8807d5f.js",
+    "main.css": "/learnR/static/css/main.077c7c22.css",
+    "main.js": "/learnR/static/js/main.be222818.js",
     "static/media/book-2.png": "/learnR/static/media/book-2.61598168449cc19498e0.png",
     "static/media/banner-img.svg": "/learnR/static/media/banner-img.664e2850e5790ddc330e44ff7cccf3bc.svg",
     "static/media/course-appp.svg": "/learnR/static/media/course-appp.c4973df3c921e9ba35c3b1c84127ce28.svg",
@@ -49,11 +49,11 @@
     "static/media/slick.ttf": "/learnR/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "index.html": "/learnR/index.html",
     "static/media/slick.woff": "/learnR/static/media/slick.295183786cd8a1389865.woff",
-    "main.2e10e90a.css.map": "/learnR/static/css/main.2e10e90a.css.map",
-    "main.a8807d5f.js.map": "/learnR/static/js/main.a8807d5f.js.map"
+    "main.077c7c22.css.map": "/learnR/static/css/main.077c7c22.css.map",
+    "main.be222818.js.map": "/learnR/static/js/main.be222818.js.map"
   },
   "entrypoints": [
-    "static/css/main.2e10e90a.css",
-    "static/js/main.a8807d5f.js"
+    "static/css/main.077c7c22.css",
+    "static/js/main.be222818.js"
   ]
 }
