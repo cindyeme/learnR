@@ -5,7 +5,6 @@
 
 - [I Have a Question](#i-have-a-question)
 - [I Want To Contribute](#i-want-to-contribute)
-  - [Contributing As a Team](#contributing-as-a-team)
   - [First Time Contributing?](#first-time-contributing?)
 - [Styleguides](#styleguides)
   - [Commit Messages](#commit-messages)

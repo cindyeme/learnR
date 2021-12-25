@@ -2,6 +2,7 @@
 
 LearnR is an educators application that aims to bring together students and teachers on the community platform. The teachers will add lesson notes to school textbooks on the platform that can enable the student to learn the entire course syllabus from home. Students can add comments and questions to teachers’ notes. 
 
+Live Preview: [https://cindyeme.github.io/learnR/](https://cindyeme.github.io/learnR/)
 ## Documentation Content
 
 * [UI](#ui)
@@ -33,10 +34,10 @@ node -v
 
 If the output is not the version of your nodejs installation, install nodejs from [here](https://nodejs.org/en/download/)
 
-After installing nodejs install [yarn](https://www.npmjs.com/package/yarn) if you don't have it installed then run `yarn` or `yarn install` to install all the project's dependencies:
+After installing nodejs install [yarn](https://www.npmjs.com/package/yarn) if you don't have it installed then run `yarn` to install all the project's dependencies:
 
 
-## STARTING THE DEVELOPMENT SERVER
+## Starting the Development Server
 ```bash
 yarn start
 ```
@@ -44,7 +45,7 @@ yarn start
 Runs the app in the development mode.
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-## RUNNING YARN COMMANDS
+## Running Yarn Commands
 
 To add a dependency, run.
 ### `yarn add [package]`
