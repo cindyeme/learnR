@@ -6,9 +6,12 @@
     "subject": "Basic Tech",
     "pages": 12,
     "lectures": 4,
-    "grade": "Junior Sec",
+    "price": "Free",
+    "tagColor": "bg-tag-pop",
+    "tag": "Popular",
+    "grade": "Senior Secondary",
     "color": "bg-tag-pink",
-    "cover": "btech.jfif"
+    "cover": "bc-1.jpg"
   },
   {
     "teacher": "assets/img/teacher.png",
@@ -17,9 +20,12 @@
     "subject": "Computing",
     "pages": 12,
     "lectures": 4,
-    "grade": "Junior Sec",
+    "price": "Free",
+    "tagColor": "bg-tag-red",
+    "tag": "Most View",
+    "grade": "Junior Secondary",
     "color": "bg-tag-yellow",
-    "cover": "infotech.jpg"
+    "cover": "bc-5.jpg"
   },
   {
     "teacher": "assets/img/teacher.png",
@@ -28,9 +34,12 @@
     "subject": "Basic Science",
     "pages": 12,
     "lectures": 4,
-    "grade": "Junior Sec",
+    "price": "Free",
+    "tagColor": "bg-tag-pop",
+    "tag": "Popular",
+    "grade": "Pre-school",
     "color": "bg-tag-green",
-    "cover": "bscience.jfif"
+    "cover": "bc-2.jpg"
   },
   {
     "teacher": "assets/img/teacher.png",
@@ -39,9 +48,12 @@
     "subject": "Physics",
     "pages": 12,
     "lectures": 4,
-    "grade": "Junior Sec",
+    "price": "Free",
+    "tagColor": "bg-tag-blue",
+    "tag": "Most Read",
+    "grade": "Pre-school",
     "color": "bg-tag-blue",
-    "cover": "physics.jpg"
+    "cover": "bc-3.jpg"
   },
   {
     "teacher": "assets/img/teacher.png",
@@ -50,9 +62,12 @@
     "subject": "Physics",
     "pages": 12,
     "lectures": 4,
-    "grade": "Junior Sec",
-    "color": "bg-tag-green",
-    "cover": "physics.jpg"
+    "price": "Free",
+    "tagColor": "bg-tag-pop",
+    "tag": "Popular",
+    "grade": "Pre-school",
+    "color": "bg-tag-pop",
+    "cover": "bc-4.jpg"
   },
   {
     "teacher": "assets/img/teacher.png",
@@ -61,9 +76,12 @@
     "subject": "Physics",
     "pages": 12,
     "lectures": 4,
-    "grade": "Junior Sec",
+    "price": "Free",
+    "tagColor": "bg-tag-red",
+    "tag": "Most View",
+    "grade": "Tertiary",
     "color": "bg-tag-blue",
-    "cover": "physics.jpg"
+    "cover": "bc-7.jpg"
   },
   {
     "teacher": "assets/img/teacher.png",
@@ -72,9 +90,12 @@
     "subject": "Physics",
     "pages": 12,
     "lectures": 4,
-    "grade": "Junior Sec",
+    "price": "Free",
+    "tagColor": "bg-tag-pop",
+    "tag": "Popular",
+    "grade": "Senior Secondary",
     "color": "bg-tag-blue",
-    "cover": "physics.jpg"
+    "cover": "bc-7.jpg"
   },
   {
     "teacher": "assets/img/teacher.png",
@@ -83,8 +104,11 @@
     "subject": "Computing",
     "pages": 12,
     "lectures": 4,
-    "grade": "Junior Sec",
+    "price": "Free",
+    "tagColor": "bg-tag-blue",
+    "tag": "Most Read",
+    "grade": "Primary",
     "color": "bg-tag-yellow",
-    "cover": "infotech.jpg"
+    "cover": "bc-1.jpg"
   }
 ]

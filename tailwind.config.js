@@ -22,6 +22,7 @@ module.exports = {
           blue: "#1888c9",
           purple: "#7c4bc0",
           red: "#d23f3f",
+          pop: "#ff5a00",
           green: "#2da397",
           section: "rgb(0, 30, 60, 0.6)",
         },

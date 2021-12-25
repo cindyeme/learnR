@@ -11,12 +11,14 @@ import SignUp from './pages/Sign-up';
 import RequestToken from './pages/password-recovery/requestToken';
 import ResetPassword from './pages/password-recovery/newPassword';
 import BecomeATeacher from './pages/BecomeATeacher';
+import Courses from './pages/Courses';
 
 function App() {
   return (
     <Routes>
       <Route path="/" element={<Home />} />
       {/* <Route path="/about-us" element={<AboutUs />} /> */}
+      <Route path="/courses" element={<Courses />} />
       <Route path="/signin" element={<SignIn />} />
       <Route path="/signup" element={<SignUp />} />
       <Route path="/forgot-password" element={<RequestToken />} />

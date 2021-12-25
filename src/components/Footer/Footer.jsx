@@ -9,7 +9,7 @@ import Logo from "../logo/Logo";
 
 function Footer() {
   return (
-    <footer>
+    <footer className="z-50 relative">
       <div className="container mx-auto px-4 sm:px-6">
         {/* Top area: Blocks */}
         <div className="grid sm:grid-cols-12 gap-8 py-8 md:py-12 border-t border-gray-200">

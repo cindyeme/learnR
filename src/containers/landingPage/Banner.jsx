@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import "./banner.css";
+import "../../styles/global.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSearch } from "@fortawesome/free-solid-svg-icons";
 import bannerImg from "../../assets/img/banner-img.svg";
@@ -7,8 +7,6 @@ import Button from "../../components/button/Button";
 
 const Banner = () => (
   <section className="relative">
-    {/* <div class="triangle overflow-hidden w-full" /> */}
-    {/* <div class="angle" /> */}
     <div class="spikes hidden xl:block"></div>
     <div className="relative container mx-auto px-4 banner pt-40 sm:pt-48 xl:-mt-550">
       <div className="lg:grid gap-x-4 lg:grid-cols-12">

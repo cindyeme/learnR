@@ -187,7 +187,7 @@ function Header() {
                   end
                   to="/"
                   className={({ isActive }) =>
-                    "text-gray-700 text-xs uppercase font-semibold px-3 py-2 hover:text-primary-900 transition-all duration-300 ease-out pr-36" +
+                    "text-gray-700 text-xs uppercase font-semibold px-3 py-2 hover:text-primary-900 transition-all duration-300 ease-out pr-20" +
                     (isActive ? " text-primary-900 " : "")
                   }
                 >
@@ -200,7 +200,7 @@ function Header() {
                   end
                   to="/about-us"
                   className={({ isActive }) =>
-                    "text-gray-700 text-xs uppercase font-semibold px-3 py-2 hover:text-primary-900 transition-all duration-300 ease-out pr-36" +
+                    "text-gray-700 text-xs uppercase font-semibold px-3 py-2 hover:text-primary-900 transition-all duration-300 ease-out pr-20" +
                     (isActive ? " text-primary-900 " : "")
                   }
                 >
@@ -213,7 +213,7 @@ function Header() {
                   end
                   to="/courses"
                   className={({ isActive }) =>
-                    "text-gray-700 text-xs uppercase font-semibold px-3 py-2 hover:text-primary-900 transition-all duration-300 ease-out pr-36" +
+                    "text-gray-700 text-xs uppercase font-semibold px-3 py-2 hover:text-primary-900 transition-all duration-300 ease-out pr-20" +
                     (isActive ? " text-primary-900 " : "")
                   }
                 >
@@ -226,7 +226,7 @@ function Header() {
                   end
                   to="/become-a-teacher"
                   className={({ isActive }) =>
-                    "text-gray-700 text-xs uppercase font-semibold px-3 py-2 hover:text-primary-900 transition-all duration-300 ease-out pr-36" +
+                    "text-gray-700 text-xs uppercase font-semibold px-3 py-2 hover:text-primary-900 transition-all duration-300 ease-out pr-20" +
                     (isActive ? " text-primary-900 " : "")
                   }
                 >

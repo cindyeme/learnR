@@ -17,7 +17,7 @@ const BecomeATeacher = ({ loadState }) => {
       firstName: "",
       lastName: "",
       email: "",
-      category: "",
+      level: "",
       interest: "",
       password: "",
     },
@@ -124,13 +124,13 @@ const BecomeATeacher = ({ loadState }) => {
                     ) : null}
                   </div>
 
-                  {/* Category */}
+                  {/* level */}
                   <div className="form-group col-span-full md:col-span-1 mb-4">
                     <Select
-                      name="cate"
-                      label="Category"
-                      value={formik.values.category}
-                      defaultValue="--select category--"
+                      name="level"
+                      label="Level"
+                      value={formik.values.level}
+                      defaultValue="--select level--"
                       choices={[
                         "PreSchool",
                         "Primary",
@@ -138,11 +138,11 @@ const BecomeATeacher = ({ loadState }) => {
                         "Senior secondary",
                         "Tertiary",
                       ]}
-                      {...formik.getFieldProps("category")}
+                      {...formik.getFieldProps("level")}
                     />
-                    {formik.touched.category && formik.errors.category ? (
+                    {formik.touched.level && formik.errors.level ? (
                       <p className="pt-1 text-sm text-red-600">
-                        {formik.errors.category}
+                        {formik.errors.level}
                       </p>
                     ) : null}
                   </div>

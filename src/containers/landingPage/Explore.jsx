@@ -1,6 +1,7 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBookOpen } from "@fortawesome/free-solid-svg-icons";
 import { faFolderOpen } from "@fortawesome/free-solid-svg-icons";
+import { Link } from 'react-router-dom';
 import teacher from "../../assets/img/teacher.png";
 import Explore_data from "../../constants/explore.json";
 import { Waves } from "../../components/svg/Svg";
@@ -65,7 +66,9 @@ const Explore = () => (
           })}
         </div>
         <div className="max-w-xl mx-auto text-center mt-4">
-          <Button className="rounded-full text-center">View All</Button>
+          <Button className="rounded-full text-center focus:outline-none">
+            <Link to="/courses">View All</Link>
+          </Button>
         </div>
       </div>
     </div>
