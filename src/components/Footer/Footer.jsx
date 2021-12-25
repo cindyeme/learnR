@@ -29,7 +29,7 @@ function Footer() {
                 <li>
                   <Link
                     to="#"
-                    className="flex justify-center items-center  hover:text-primary-800 hover:border-primary-800 bg-white text-gray-600 hover:bg-white-100 rounded-full shadow transition duration-150 ease-in-out border border-gray-600 px-3 py-2"
+                    className="flex justify-center items-center  hover:text-primary-800 hover:border-primary-800 bg-white text-gray-600 hover:bg-white-100 rounded-full shadow-lg-amber hover:shadow-none transition duration-150 ease-in-out border border-gray-600 px-3 py-2"
                     aria-label="Facebook"
                   >
                     <FontAwesomeIcon icon={faFacebookF} className="text-sm" />
@@ -38,7 +38,7 @@ function Footer() {
                 <li className="ml-3">
                   <Link
                     to="#"
-                    className="flex justify-center items-center  hover:text-primary-800 hover:border-primary-800 bg-white text-gray-600 hover:bg-white-100 rounded-full shadow transition duration-150 ease-in-out border border-gray-600 px-3 py-2"
+                    className="flex justify-center items-center  hover:text-primary-800 hover:border-primary-800 bg-white text-gray-600 hover:bg-white-100 rounded-full shadow-lg-amber hover:shadow-none transition duration-150 ease-in-out border border-gray-600 px-3 py-2"
                     aria-label="Github"
                   >
                     <FontAwesomeIcon icon={faGithub} className="text-sm" />
@@ -47,7 +47,7 @@ function Footer() {
                 <li className="ml-3">
                   <Link
                     to="#"
-                    className="flex justify-center items-center  hover:text-primary-800 hover:border-primary-800 bg-white text-gray-600 hover:bg-white-100 rounded-full shadow transition duration-150 ease-in-out border border-gray-600 px-3 py-2"
+                    className="flex justify-center items-center  hover:text-primary-800 hover:border-primary-800 bg-white text-gray-600 hover:bg-white-100 rounded-full shadow-lg-amber hover:shadow-none transition duration-150 ease-in-out border border-gray-600 px-3 py-2"
                     aria-label="Twitter"
                   >
                     <FontAwesomeIcon icon={faTwitter} className="text-sm" />
@@ -56,7 +56,7 @@ function Footer() {
                 <li className="ml-3">
                   <Link
                     to="#"
-                    className="flex justify-center items-center  hover:text-primary-800 hover:border-primary-800 bg-white text-gray-600 hover:bg-white-100 rounded-full shadow transition duration-150 ease-in-out border border-gray-600 px-3 py-2"
+                    className="flex justify-center items-center  hover:text-primary-800 hover:border-primary-800 bg-white text-gray-600 hover:bg-white-100 rounded-full shadow-lg-amber hover:shadow-none transition duration-150 ease-in-out border border-gray-600 px-3 py-2"
                     aria-label="Instagram"
                   >
                     <FontAwesomeIcon icon={faInstagram} className="text-sm" />
@@ -74,7 +74,7 @@ function Footer() {
             <ul className="text-sm">
               <li className="mb-2">
                 <Link
-                  to="#"
+                  to="/courses"
                   className=" hover:text-primary-900 transition duration-150 ease-in-out"
                 >
                   Physics
@@ -82,7 +82,7 @@ function Footer() {
               </li>
               <li className="mb-2">
                 <Link
-                  to="#"
+                  to="/courses"
                   className=" hover:text-primary-900 transition duration-150 ease-in-out"
                 >
                   Mathematics
@@ -90,7 +90,7 @@ function Footer() {
               </li>
               <li className="mb-2">
                 <Link
-                  to="#"
+                  to="/courses"
                   className=" hover:text-primary-900 transition duration-150 ease-in-out"
                 >
                   Literature
@@ -98,7 +98,7 @@ function Footer() {
               </li>
               <li className="mb-2">
                 <Link
-                  to="#"
+                  to="/courses"
                   className=" hover:text-primary-900 transition duration-150 ease-in-out"
                 >
                   Chemistry
@@ -106,7 +106,7 @@ function Footer() {
               </li>
               <li className="mb-2">
                 <Link
-                  to="#"
+                  to="/courses"
                   className=" hover:text-primary-900 transition duration-150 ease-in-out"
                 >
                   Biology
@@ -172,7 +172,7 @@ function Footer() {
             <ul className="text-sm">
               <li className="mb-2">
                 <Link
-                  to="#"
+                  to="/"
                   className=" hover:text-primary-900 transition duration-150 ease-in-out"
                 >
                   Home
@@ -180,7 +180,7 @@ function Footer() {
               </li>
               <li className="mb-2">
                 <Link
-                  to="#"
+                  to="/about-us"
                   className=" hover:text-primary-900 transition duration-150 ease-in-out"
                 >
                   About us
@@ -188,7 +188,7 @@ function Footer() {
               </li>
               <li className="mb-2">
                 <Link
-                  to="#"
+                  to="/become-a-teacher"
                   className=" hover:text-primary-900 transition duration-150 ease-in-out"
                 >
                   Become a Teacher
@@ -196,7 +196,7 @@ function Footer() {
               </li>
               <li className="mb-2">
                 <Link
-                  to="#"
+                  to="/pricing"
                   className=" hover:text-primary-900 transition duration-150 ease-in-out"
                 >
                   Pricing
@@ -204,7 +204,7 @@ function Footer() {
               </li>
               <li className="mb-2">
                 <Link
-                  to="#"
+                  to="/privacy-policy"
                   className=" hover:text-primary-900 transition duration-150 ease-in-out"
                 >
                   Privacy Policy
@@ -245,7 +245,7 @@ function Footer() {
                         aria-hidden="true"
                       ></span>
                       <svg
-                        className="w-3 h-3 fill-current text-blue-600 mx-3 flex-shrink-0"
+                        className="w-3 h-3 fill-current text-primary-600 mx-3 flex-shrink-0"
                         viewBox="0 0 12 12"
                         xmlns="http://www.w3.org/2000/svg"
                       >
@@ -266,7 +266,7 @@ function Footer() {
 
         {/* Bottom area */}
         <div className="md:flex md:items-center md:justify-between py-8 border-t border-gray-200">
-          <div className="text-sm md:order-1">
+          <div className="text-sm md:order-1 mb-2 md:mb-0">
             <Link
               to="#"
               className=" hover:text-primary-900 hover:underline transition duration-150 ease-in-out"
@@ -280,6 +280,11 @@ function Footer() {
             >
               Privacy Policy
             </Link>
+            <p className="pt-2">
+              <a href="https://storyset.com/online" className="text-xs ">
+                Online illustrations by Storyset
+              </a>
+            </p>
           </div>
 
           {/* Copyrights note */}

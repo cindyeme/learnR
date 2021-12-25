@@ -22,3 +22,7 @@ export const Waves2 = () => (
     ></path>
   </svg>
 );
+
+// const BannerVid = () =>(
+  
+// );

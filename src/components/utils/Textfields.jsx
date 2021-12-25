@@ -155,7 +155,7 @@ export const Select = ({ choices, label, name, onChange, defaultValue, className
         id={name}
         onChange={onChange}
         name={name}
-        className={`form-select h-12 rounded hover:shadow-none focus:outline-none focus:border-primary-800 focus:shadow-xl hover:border-primary-800 border border-primary-fade text-grayish-900 bg-gray-100 focus:bg-white ${className}`}
+        className={`form-select w-full h-12 rounded hover:shadow-none focus:outline-none focus:border-primary-800 focus:shadow-xl hover:border-primary-800 border border-primary-fade text-grayish-900 bg-gray-100 focus:bg-white ${className}`}
         disabled={disabled}
         value={currentValue}
       >

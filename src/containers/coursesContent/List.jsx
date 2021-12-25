@@ -18,7 +18,7 @@ const CourseList = () => {
           courses
         </h3>
         <div className="flex space-x-3 items-center">
-          <Select id="sort" name="sort" defaultValue="Sort By" choices={["Popularity", "Most Read", "Most View", "Trending"]} className="h-11" value={sort} onChange={handleChange} />
+          <Select id="sort" name="sort" defaultValue="Sort By" choices={["Popularity", "Most Read", "Most View", "Trending"]} className="h-11 w-full" value={sort} onChange={handleChange} />
           <Button className="bg-primary-amber !px-4 !py-3.5 rounded">
             Submit
           </Button>

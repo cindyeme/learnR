@@ -18,7 +18,11 @@ const Explore = () => (
         </h2>
       </div>
       <div className="explore-content">
-        <div className="grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 gap-5">
+        <div
+          className="grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 gap-5"
+          data-aos="fade-up"
+          data-aos-duration="1500"
+        >
           {Explore_data.map((item, i) => {
             return (
               <div
@@ -66,7 +70,7 @@ const Explore = () => (
           })}
         </div>
         <div className="max-w-xl mx-auto text-center mt-4">
-          <Button className="rounded-full text-center focus:outline-none">
+          <Button className="rounded-full ring ring-primary-900 ring-offset-2 shake-bottom text-center">
             <Link to="/courses">View All</Link>
           </Button>
         </div>

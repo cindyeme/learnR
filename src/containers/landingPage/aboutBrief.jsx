@@ -5,12 +5,12 @@ import Button from "../../components/button/Button";
 const AboutBrief = () => (
   <section className="relative container mx-auto mt-4 xl:mt-0">
     <div className="grid lg:grid-cols-12 gap-x-6">
-      <div className="col-span-full lg:col-span-6">
+      <div className="col-span-full lg:col-span-6" data-aos="fade-right">
         <div className="img-box relative my-5 xl:my-0">
           <img src={aboutImg} alt="about-img" className="img-fluid z-50" />
         </div>
       </div>
-      <div className="col-span-full lg:col-span-6 ">
+      <div className="col-span-full lg:col-span-6" data-aos="fade-left">
         <div className="about-brief px-4 flex flex-col justify-center items-center lg:justify-start lg:items-start mt-6">
           <h5 className="text-white bg-white bg-opacity-20 rounded-full uppercase font-bold py-2 px-4 inline text-sm">
             About us
@@ -38,7 +38,7 @@ const AboutBrief = () => (
             <li>129k Online Available Notes</li>
           </ul>
           <div className="mt-10">
-            <Button className="rounded-full">
+            <Button className="rounded-full ring ring-primary-900 ring-offset-2 shake-bottom">
               <Link to="/signin">Get Started</Link>{" "}
             </Button>
           </div>

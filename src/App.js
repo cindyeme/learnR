@@ -1,6 +1,8 @@
-import React from 'react';
-import { Routes, Route } from 'react-router-dom';
+import React, {useEffect} from 'react';
+import { Routes, Route, useLocation } from 'react-router-dom';
 import "@material-tailwind/react/tailwind.css";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import "./styles/output.css";
 import Home from './pages';
 // import AboutUs from './pages/About';
@@ -14,6 +16,23 @@ import BecomeATeacher from './pages/BecomeATeacher';
 import Courses from './pages/Courses';
 
 function App() {
+  const location = useLocation();
+  useEffect(() => {
+    AOS.init({
+      once: true,
+      disable: 'phone',
+      duration: 700,
+      easing: 'ease-out-cubic',
+    });
+  });
+
+  useEffect(() => {
+    document.querySelector('html').style.scrollBehavior = 'auto';
+    window.scroll({ top: 0 });
+    document.querySelector('html').style.scrollBehavior = '';
+    // focusHandling('outline');
+  }, [location.pathname]);
+  
   return (
     <Routes>
       <Route path="/" element={<Home />} />

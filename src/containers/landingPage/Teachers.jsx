@@ -20,7 +20,12 @@ const Teachers = () => (
           Meet the Best Teachers
         </h2>
       </div>
-      <div className="relative mt-5 pb-8 lg:pb-12">
+      <div
+        className="relative mt-5 pb-8 lg:pb-12"
+        data-aos="fade-down"
+        data-aos-easing="linear"
+        data-aos-duration="1500"
+      >
         <TeachersSlider {...settings}>
           {Teachers_data.map((item, i) => {
             return (

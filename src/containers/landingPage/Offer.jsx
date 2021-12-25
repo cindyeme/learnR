@@ -23,7 +23,11 @@ const Discover = () => (
         </div>
         <div className="grid lg:grid-cols-4 md:grid-cols-3 gap-5 max-h-full py-4 mt-8">
           {/* 1st  */}
-          <div className="col-span-full md:col-span-1 flex flex-col space-y-4 bg-primary-600 p-4 justify-center items-center border border-primary-fade rounded">
+          <div
+            className="col-span-full md:col-span-1 flex flex-col space-y-4 bg-primary-600 p-4 justify-center items-center border border-primary-fade rounded"
+            data-aos="flip-up"
+            data-aos-delay="100"
+          >
             <div className="icon-box">
               <img src={icon1} alt="icon" className="img-fluid" />
             </div>
@@ -42,7 +46,11 @@ const Discover = () => (
             </Link>
           </div>
           {/* 2nd  */}
-          <div className="col-span-full md:col-span-1 flex flex-col space-y-4 bg-primary-600 p-4 justify-center items-center border border-primary-fade rounded">
+          <div
+            className="col-span-full md:col-span-1 flex flex-col space-y-4 bg-primary-600 p-4 justify-center items-center border border-primary-fade rounded"
+            data-aos="flip-up"
+            data-aos-delay="200"
+          >
             <div className="icon-box">
               <img src={icon2} alt="icon" className="img-fluid" />
             </div>
@@ -61,7 +69,11 @@ const Discover = () => (
             </Link>
           </div>
           {/* 3rd  */}
-          <div className="col-span-full md:col-span-1 flex flex-col space-y-4 bg-primary-600 p-4 justify-center items-center border border-primary-fade rounded">
+          <div
+            className="col-span-full md:col-span-1 flex flex-col space-y-4 bg-primary-600 p-4 justify-center items-center border border-primary-fade rounded"
+            data-aos="flip-up"
+            data-aos-delay="300"
+          >
             <div className="icon-box">
               <img src={icon3} alt="icon" className="img-fluid" />
             </div>
@@ -80,7 +92,11 @@ const Discover = () => (
             </Link>
           </div>
           {/* 4th  */}
-          <div className="col-span-full md:col-span-1 flex flex-col space-y-4 bg-primary-600 p-4 justify-center items-center border border-primary-fade rounded">
+          <div
+            className="col-span-full md:col-span-1 flex flex-col space-y-4 bg-primary-600 p-4 justify-center items-center border border-primary-fade rounded"
+            data-aos="flip-up"
+            data-aos-delay="400"
+          >
             <div className="icon-box">
               <img src={icon4} alt="icon" className="img-fluid" />
             </div>

@@ -23,7 +23,7 @@ const CourseBanner = () => (
         </div>
       </div>
       <div className="lg:grid gap-8 lg:grid-cols-12 lg:my-32 my-28">
-        <Filter /> 
+        <Filter />
         <CourseList />
       </div>
     </div>

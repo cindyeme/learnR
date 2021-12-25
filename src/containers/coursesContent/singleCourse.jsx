@@ -22,7 +22,6 @@ const SingleCourse = () => {
                 />
               </Link>
               <div className={`${item.tagColor} trend-badge text-center bg-tag-blue flex flex-col`}>
-                {/* <FontAwesomeIcon icon={faBolt} /> */}
                 <i className="fas fa-bolt" />
                 <span className={`px-3 text-xs`}>
                   {item.tag}
