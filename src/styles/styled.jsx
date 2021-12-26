@@ -16,7 +16,7 @@ export const TeachersSlider = styled(Slider)`
     border: 2px solid #ffc107 !important;
     border-radius: 50%;
     color: rgba(255, 255, 255, 0.4);
-    padding: .3rem;
+    padding: 0.3rem;
     margin-top: 20px;
   }
   .slick-cont {
@@ -24,5 +24,9 @@ export const TeachersSlider = styled(Slider)`
     flex-direction: column;
     justify-content: center;
     align-items: center;
+  }
+  .slick-dots li.slick-active button:before {
+    opacity: 0.75;
+    color: #8ea0f3;
   }
 `;

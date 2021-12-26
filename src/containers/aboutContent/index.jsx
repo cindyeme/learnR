@@ -1,5 +1,3 @@
-import React from "react";
-// import "../../styles/global.css";
 import { Link } from "react-router-dom";
 import AboutFacts from "./aboutFacts";
 import AboutIntro from "./aboutIntro";
@@ -7,9 +5,10 @@ import AboutStatements from "./aboutStatements";
 import "../../styles/svg.css";
 import AboutOffer from "./aboutOffer";
 import Team from "./Team";
+import wave from "../../assets/img/wave.png";
 
-const AboutContent = () => (
-  <section className="shape">
+const AboutIndex = () => (
+  <section className="shape relative">
     <div className="relative max-w-7xl mx-auto px-4 banner pb-24">
       {/* Heading */}
       <div className="max-w-3xl mx-auto text-center pt-36 lg:pt-0 lg:-mt-28 xl:-mt-40">
@@ -32,7 +31,8 @@ const AboutContent = () => (
       <AboutFacts />
       <Team />
     </div>
+    <img src={wave} alt="bg-img" className="absolute top-16 lg:hidden" />
   </section>
 );
 
-export default AboutContent;
+export default AboutIndex;

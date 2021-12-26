@@ -1,15 +1,15 @@
 import Layout from "../layout/Layout";
 import { Waves5 } from "../components/svg/Svg";
-import AboutContent from "../containers/aboutContent";
+import AboutIndex from "../containers/aboutContent";
 
 const About = () => {
   return (
     <Layout>
       <>
-        <section className="relative pb-10 bg-tag-section px-4 lg:px-0  lg:block hidden">
-          <Waves5 className="absolute bottom-0 -z-0 opacity-10 " />
+        <section className="relative pb-12 bg-tag-section px-4 lg:px-0  lg:block hidden">
+          <Waves5 className=" bottom-0 -z-0 opacity-75 hidden lg:block" />
         </section>
-        <AboutContent />
+        <AboutIndex />
       </>
     </Layout>
   );

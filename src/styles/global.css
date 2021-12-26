@@ -1,3 +1,22 @@
+ body{
+  background-color: #002147;
+}
+.body{
+  background-image: url(../assets/img/dots.png) !important;
+        background-size: contain;     
+}
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+::selection{
+  background: #132f4c;
+  color: #fff;
+}
+::-moz-selection{
+  background: #132f4c;
+  color: #fff;
+}
 .banner{
   font-weight: 700;
 }
@@ -176,7 +195,7 @@
   display: inline-table;
   padding: 18px 30px;
   font-weight: 600;
-  background: #f5960b;
+  /* background: #f5960b; */
   /* border-radius: 3px; */
 }
 .default-btn:focus{

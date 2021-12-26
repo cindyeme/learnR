@@ -10,7 +10,7 @@ const AboutFacts = () => (
   >
     <div className="lg:grid gap-y-6 gap-x-12 lg:grid-cols-12">
       <div className="col-span-full lg:col-span-8 pb-8" data-aos="fade-down">
-        <div className="about-brief px-4 flex flex-col justify-center items-center lg:justify-start lg:items-start mt-6">
+        <div className="flex flex-col justify-center items-center lg:justify-start lg:items-start mt-6">
           <h5 className="text-white bg-white bg-opacity-20 rounded-full uppercase font-bold py-2 px-4 inline text-sm">
             Funfacts
           </h5>

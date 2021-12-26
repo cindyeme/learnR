@@ -59,7 +59,7 @@ const Explore = () => (
                     className="img-fluid w-full mt-3 rounded object- h-20 opacity-"
                   />
                   <p
-                    className={`${item.color} text-white bg-tag-blue absolute text-xs px-3 py-1  top-3 left-1/2 transform -translate-x-1/2 -translate-y-1/2 shadow-2xl`}
+                    className={`text-white bg-tag-blue absolute text-xs px-3 py-1  top-3 left-1/2 transform -translate-x-1/2 -translate-y-1/2 shadow-2xl`}
                   >
                     {item.subject}
                   </p>
@@ -70,7 +70,7 @@ const Explore = () => (
           })}
         </div>
         <div className="max-w-xl mx-auto text-center mt-4">
-          <Button className="rounded-full ring ring-primary-900 ring-offset-2 shake-bottom text-center">
+          <Button className="rounded-full !bg-primary-amber !py-3 ring ring-primary-900 ring-offset-2 shake-bottom text-center">
             <Link to="/courses">View All</Link>
           </Button>
         </div>

@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-import "../../styles/global.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSearch } from "@fortawesome/free-solid-svg-icons";
 import bannerImg from "../../assets/img/banner-img.svg";
@@ -8,7 +7,7 @@ import Button from "../../components/button/Button";
 const Banner = () => (
   <section className="relative">
     <div class="spikes hidden xl:block"></div>
-    <div className="relative container mx-auto px-4 banner pt-40 sm:pt-48 xl:-mt-550">
+    <div className="relative max-w-7xl lg:container mx-auto px-4 banner pt-40 sm:pt-48 xl:-mt-550">
       <div className="lg:grid gap-x-4 lg:grid-cols-12" data-aos="zoom-in-down">
         <div className="wlc-text col-span-full lg:col-span-7">
           <h1 className="lg:text-6xl text-4xl font-bolder tracking-wide lg:font-bold text-white leading-snug banner_caption">

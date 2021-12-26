@@ -1,11 +1,12 @@
 import React from "react";
-import '../../styles/global.css';
 import { Link } from "react-router-dom";
 import Filter from "./Filter";
 import CourseList from "./List";
+import "../../styles/svg.css";
+import wave from "../../assets/img/wave.png";
 
 const CourseContent = () => (
-  <section>
+  <section className="shape relative">
     <div className="relative max-w-7xl mx-auto px-4 banner">
       {/* Heading */}
       <div className="max-w-3xl mx-auto text-center pt-36 lg:pt-0 lg:-mt-28 xl:-mt-40">
@@ -27,6 +28,7 @@ const CourseContent = () => (
         <CourseList />
       </div>
     </div>
+    <img src={wave} alt="bg-img" className="absolute top-16 -z-0 lg:hidden" />
   </section>
 );
 

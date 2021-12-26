@@ -3,7 +3,7 @@ import aboutImg from "../../assets/img/course-appp.svg";
 import Button from "../../components/button/Button";
 
 const AboutBrief = () => (
-  <section className="relative container mx-auto mt-4 xl:mt-0">
+  <section className="relative max-w-7xl lg:container mx-auto mt-4 xl:mt-0">
     <div className="grid lg:grid-cols-12 gap-x-6">
       <div className="col-span-full lg:col-span-6" data-aos="fade-right">
         <div className="img-box relative my-5 xl:my-0">
@@ -38,7 +38,7 @@ const AboutBrief = () => (
             <li>129k Online Available Notes</li>
           </ul>
           <div className="mt-10 flex flex-col space-y-5 xs:flex-row xs:space-x-6 xs:space-y-0 items-center">
-            <Button className="rounded-full ring ring-primary-900 ring-offset-2 !px-5 !py-4">
+            <Button className="rounded-full ring ring-primary-900 ring-offset-2 !bg-primary-amber !px-5 !py-4">
               <Link to="/signin">Get Started</Link>{" "}
             </Button>
             <Button className="rounded-full ring ring-primary-900 ring-offset-2 !bg-transparent !px-5 !py-4">

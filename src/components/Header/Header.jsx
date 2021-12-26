@@ -29,6 +29,7 @@ function Header() {
           !top && "bg-primary-600 shadow-lg"
         }`}
         ref={ref}
+        style={{zIndex: 9999}}
       >
         <div className="max-w-full bg-primary-600 lg:bg-transparent mx-auto px-4 lg:px-16 xl:px-20 py-4">
           <div className="flex flex-wrap items-center justify-between">

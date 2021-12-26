@@ -8,7 +8,7 @@ const AboutIntro = () => (
       <img src={students} alt="about-img" className="img-fluid w-full" />
     </div>
     <div className="col-span-full lg:col-span-7" data-aos="fade-down">
-      <div className="about-brief px-4 flex flex-col justify-center items-center lg:justify-start lg:items-start mt-6">
+      <div className="about-brief flex flex-col justify-center items-center lg:justify-start lg:items-start mt-6">
         <h5 className="text-white bg-white bg-opacity-20 rounded-full uppercase font-bold py-2 px-4 inline text-sm">
           About us
         </h5>
@@ -32,7 +32,7 @@ const AboutIntro = () => (
           <li>Our Mission Is Increasing Global Access To Quality Education</li>
           <li>129k Online Available Notes</li>
         </ul>
-        <div className="mt-10 ">
+        <div className="mt-10">
           <Button className="rounded-full ring ring-primary-900 ring-offset-2 !bg-primary-amber !px-5 !py-4">
             <Link to="/signin">Get Started</Link>{" "}
           </Button>
