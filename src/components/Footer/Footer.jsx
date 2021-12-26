@@ -1,10 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faFacebookF } from "@fortawesome/free-brands-svg-icons";
-import { faGithub } from "@fortawesome/free-brands-svg-icons";
-import { faTwitter } from "@fortawesome/free-brands-svg-icons";
-import { faInstagram } from "@fortawesome/free-brands-svg-icons";
+import { faFacebookF, faGithub, faTwitter, faInstagram } from "@fortawesome/free-brands-svg-icons";
 import Logo from "../logo/Logo";
 
 function Footer() {
@@ -27,40 +24,44 @@ function Footer() {
               {/* Social links */}
               <ul className="flex mb-4 md:mb-0">
                 <li>
-                  <Link
-                    to="#"
-                    className="flex justify-center items-center  hover:text-primary-800 hover:border-primary-800 bg-white text-gray-600 hover:bg-white-100 rounded-full shadow-lg-amber hover:shadow-none transition duration-150 ease-in-out border border-gray-600 px-3 py-2"
+                  <a
+                    href="https://"
+                    className=" hover:text-primary-800 hover:border-primary-800 bg-white text-gray-600 hover:bg-white-100 rounded-full shadow-lg-amber hover:shadow-none transition duration-150 ease-linear border border-gray-600 px-3 py-2"
+                    title="Follow us on Facebook"
                     aria-label="Facebook"
                   >
                     <FontAwesomeIcon icon={faFacebookF} className="text-sm" />
-                  </Link>
+                  </a>
                 </li>
                 <li className="ml-3">
-                  <Link
-                    to="#"
-                    className="flex justify-center items-center  hover:text-primary-800 hover:border-primary-800 bg-white text-gray-600 hover:bg-white-100 rounded-full shadow-lg-amber hover:shadow-none transition duration-150 ease-in-out border border-gray-600 px-3 py-2"
+                  <a
+                    href="https://"
+                    className=" hover:text-primary-800 hover:border-primary-800 bg-white text-gray-600 hover:bg-white-100 rounded-full shadow-lg-amber hover:shadow-none transition duration-150 ease-linear border border-gray-600 px-3 py-2"
                     aria-label="Github"
+                    title="Follow us on Github"
                   >
                     <FontAwesomeIcon icon={faGithub} className="text-sm" />
-                  </Link>
+                  </a>
                 </li>
                 <li className="ml-3">
-                  <Link
-                    to="#"
-                    className="flex justify-center items-center  hover:text-primary-800 hover:border-primary-800 bg-white text-gray-600 hover:bg-white-100 rounded-full shadow-lg-amber hover:shadow-none transition duration-150 ease-in-out border border-gray-600 px-3 py-2"
+                  <a
+                    href="https://"
+                    className=" hover:text-primary-800 hover:border-primary-800 bg-white text-gray-600 hover:bg-white-100 rounded-full shadow-lg-amber hover:shadow-none transition duration-150 ease-linear border border-gray-600 px-3 py-2"
                     aria-label="Twitter"
+                    title="Follow us on Twitter"
                   >
                     <FontAwesomeIcon icon={faTwitter} className="text-sm" />
-                  </Link>
+                  </a>
                 </li>
                 <li className="ml-3">
-                  <Link
-                    to="#"
-                    className="flex justify-center items-center  hover:text-primary-800 hover:border-primary-800 bg-white text-gray-600 hover:bg-white-100 rounded-full shadow-lg-amber hover:shadow-none transition duration-150 ease-in-out border border-gray-600 px-3 py-2"
+                  <a
+                    href="https://"
+                    className=" hover:text-primary-800 hover:border-primary-800 bg-white text-gray-600 hover:bg-white-100 rounded-full shadow-lg-amber hover:shadow-none transition duration-150 ease-linear border border-gray-600 px-3 py-2"
                     aria-label="Instagram"
+                    title="Follow us on Instagram"
                   >
                     <FontAwesomeIcon icon={faInstagram} className="text-sm" />
-                  </Link>
+                  </a>
                 </li>
               </ul>
             </div>
@@ -75,7 +76,7 @@ function Footer() {
               <li className="mb-2">
                 <Link
                   to="/courses"
-                  className=" hover:text-primary-900 transition duration-150 ease-in-out"
+                  className=" hover:text-primary-900 transition duration-150 ease-linear"
                 >
                   Physics
                 </Link>
@@ -83,7 +84,7 @@ function Footer() {
               <li className="mb-2">
                 <Link
                   to="/courses"
-                  className=" hover:text-primary-900 transition duration-150 ease-in-out"
+                  className=" hover:text-primary-900 transition duration-150 ease-linear"
                 >
                   Mathematics
                 </Link>
@@ -91,7 +92,7 @@ function Footer() {
               <li className="mb-2">
                 <Link
                   to="/courses"
-                  className=" hover:text-primary-900 transition duration-150 ease-in-out"
+                  className=" hover:text-primary-900 transition duration-150 ease-linear"
                 >
                   Literature
                 </Link>
@@ -99,7 +100,7 @@ function Footer() {
               <li className="mb-2">
                 <Link
                   to="/courses"
-                  className=" hover:text-primary-900 transition duration-150 ease-in-out"
+                  className=" hover:text-primary-900 transition duration-150 ease-linear"
                 >
                   Chemistry
                 </Link>
@@ -107,7 +108,7 @@ function Footer() {
               <li className="mb-2">
                 <Link
                   to="/courses"
-                  className=" hover:text-primary-900 transition duration-150 ease-in-out"
+                  className=" hover:text-primary-900 transition duration-150 ease-linear"
                 >
                   Biology
                 </Link>
@@ -124,7 +125,7 @@ function Footer() {
               <li className="mb-2">
                 <Link
                   to="#"
-                  className=" hover:text-primary-900 transition duration-150 ease-in-out"
+                  className=" hover:text-primary-900 transition duration-150 ease-linear"
                 >
                   Documentation
                 </Link>
@@ -132,7 +133,7 @@ function Footer() {
               <li className="mb-2">
                 <Link
                   to="#"
-                  className=" hover:text-primary-900 transition duration-150 ease-in-out"
+                  className=" hover:text-primary-900 transition duration-150 ease-linear"
                 >
                   Tutorials &amp; Guides
                 </Link>
@@ -140,7 +141,7 @@ function Footer() {
               <li className="mb-2">
                 <Link
                   to="#"
-                  className=" hover:text-primary-900 transition duration-150 ease-in-out"
+                  className=" hover:text-primary-900 transition duration-150 ease-linear"
                 >
                   Blog
                 </Link>
@@ -148,7 +149,7 @@ function Footer() {
               <li className="mb-2">
                 <Link
                   to="#"
-                  className=" hover:text-primary-900 transition duration-150 ease-in-out"
+                  className=" hover:text-primary-900 transition duration-150 ease-linear"
                 >
                   Support Center
                 </Link>
@@ -156,7 +157,7 @@ function Footer() {
               <li className="mb-2">
                 <Link
                   to="#"
-                  className=" hover:text-primary-900 transition duration-150 ease-in-out"
+                  className=" hover:text-primary-900 transition duration-150 ease-linear"
                 >
                   Partners
                 </Link>
@@ -173,7 +174,7 @@ function Footer() {
               <li className="mb-2">
                 <Link
                   to="/"
-                  className=" hover:text-primary-900 transition duration-150 ease-in-out"
+                  className=" hover:text-primary-900 transition duration-150 ease-linear"
                 >
                   Home
                 </Link>
@@ -181,7 +182,7 @@ function Footer() {
               <li className="mb-2">
                 <Link
                   to="/about-us"
-                  className=" hover:text-primary-900 transition duration-150 ease-in-out"
+                  className=" hover:text-primary-900 transition duration-150 ease-linear"
                 >
                   About us
                 </Link>
@@ -189,7 +190,7 @@ function Footer() {
               <li className="mb-2">
                 <Link
                   to="/become-a-teacher"
-                  className=" hover:text-primary-900 transition duration-150 ease-in-out"
+                  className=" hover:text-primary-900 transition duration-150 ease-linear"
                 >
                   Become a Teacher
                 </Link>
@@ -197,7 +198,7 @@ function Footer() {
               <li className="mb-2">
                 <Link
                   to="/pricing"
-                  className=" hover:text-primary-900 transition duration-150 ease-in-out"
+                  className=" hover:text-primary-900 transition duration-150 ease-linear"
                 >
                   Pricing
                 </Link>
@@ -205,7 +206,7 @@ function Footer() {
               <li className="mb-2">
                 <Link
                   to="/privacy-policy"
-                  className=" hover:text-primary-900 transition duration-150 ease-in-out"
+                  className=" hover:text-primary-900 transition duration-150 ease-linear"
                 >
                   Privacy Policy
                 </Link>
@@ -269,14 +270,14 @@ function Footer() {
           <div className="text-sm md:order-1 mb-2 md:mb-0">
             <Link
               to="#"
-              className=" hover:text-primary-900 hover:underline transition duration-150 ease-in-out"
+              className=" hover:text-primary-900 hover:underline transition duration-150 ease-linear"
             >
               Terms
             </Link>{" "}
             ·{" "}
             <Link
               to="#"
-              className=" hover:text-primary-900 hover:underline transition duration-150 ease-in-out"
+              className=" hover:text-primary-900 hover:underline transition duration-150 ease-linear"
             >
               Privacy Policy
             </Link>

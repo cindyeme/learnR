@@ -11,7 +11,7 @@ import { TeachersSlider } from "../../styles/styled";
 
 const Teachers = () => (
   <section className="relative py-16">
-    <section className="max-w-6xl mx-auto z-50 px-4 lg:px-0">
+    <div className="max-w-6xl mx-auto z-50 px-4 lg:px-0">
       <div className="max-w-3xl text-center mx-auto">
         <h5 className="text-white bg-white bg-opacity-20 rounded-full uppercase font-bold py-2 px-4 inline text-sm">
           Meet Our Teachers
@@ -88,7 +88,7 @@ const Teachers = () => (
           })}
         </TeachersSlider>
       </div>
-    </section>
+    </div>
   </section>
 );
 

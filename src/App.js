@@ -5,7 +5,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import "./styles/output.css";
 import Home from './pages';
-// import AboutUs from './pages/About';
+import AboutUs from './pages/About';
 import Error404 from './pages/Error404';
 import Error500 from './pages/Error500';
 import SignIn from './pages/Sign-in';
@@ -36,7 +36,7 @@ function App() {
   return (
     <Routes>
       <Route path="/" element={<Home />} />
-      {/* <Route path="/about-us" element={<AboutUs />} /> */}
+      <Route path="/about-us" element={<AboutUs />} />
       <Route path="/courses" element={<Courses />} />
       <Route path="/signin" element={<SignIn />} />
       <Route path="/signup" element={<SignUp />} />

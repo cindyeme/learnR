@@ -37,9 +37,12 @@ const AboutBrief = () => (
             </li>
             <li>129k Online Available Notes</li>
           </ul>
-          <div className="mt-10">
-            <Button className="rounded-full ring ring-primary-900 ring-offset-2 shake-bottom">
+          <div className="mt-10 flex flex-col space-y-5 xs:flex-row xs:space-x-6 xs:space-y-0 items-center">
+            <Button className="rounded-full ring ring-primary-900 ring-offset-2 !px-5 !py-4">
               <Link to="/signin">Get Started</Link>{" "}
+            </Button>
+            <Button className="rounded-full ring ring-primary-900 ring-offset-2 !bg-transparent !px-5 !py-4">
+              <Link to="/about-us">Read More</Link>{" "}
             </Button>
           </div>
         </div>

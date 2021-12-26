@@ -29,6 +29,7 @@ module.exports = {
         },
         grayish: {
           light: "rgba(255, 255, 255, .2)",
+          500: "rgba(255, 255, 255, .1)",
           600: "#b2bac2",
           700: "#9DA5B3",
           800: "#907888",
@@ -61,6 +62,7 @@ module.exports = {
       },
       screens: {
         ipad: "1269px",
+        xs: "323px"
       },
     },
   },

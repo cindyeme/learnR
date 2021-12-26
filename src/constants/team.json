@@ -1,0 +1,32 @@
+[
+  {
+    "img": "cynthia.jpeg",
+    "name": "Emerenini Cynthia",
+    "role": "Frontend Developer"
+  },
+  {
+    "img": "christophe.jfif",
+    "name": "Christophe Habimana",
+    "role": "GCP Engineer"
+  },
+  {
+    "img": "catherine.jfif",
+    "name": "Catherine Wanjiru",
+    "role": "GCP Mentor"
+  },
+  {
+    "img": "elvis.jfif",
+    "name": "Elvis Mariga",
+    "role": "UI Designer"
+  },
+  {
+    "img": "mary.jfif",
+    "name": "Mary Obiagba",
+    "role": "MWS Mentor"
+  },
+  {
+    "img": "joseph.jpeg",
+    "name": "Joseph Bloom",
+    "role": "Backend Developer"
+  }
+]

@@ -51,18 +51,21 @@ const Filter = () => {
       {/* Price */}
       <div className="filter-price mt-10">
         <h2 className="text-2xl font-bold pb-3 border-b mb-7 filter-title relative">
-          Price
+          Course Price
         </h2>
         <ul className="flex flex-col space-y-2 divide-y divide-grayish-light">
           <li>
-            <Checkbox color="amber" text="Free Courses" id="p-free" />
+            <Checkbox color="amber" text="All" id="all" />
           </li>
           <li className="pt-2">
-            <Checkbox color="amber" text="Paid Courses" id="p-paid" />
+            <Checkbox color="amber" text="Free" id="p-free" />
           </li>
           <li className="pt-2">
+            <Checkbox color="amber" text="Paid" id="p-paid" />
+          </li>
+          {/* <li className="pt-2">
             <Checkbox color="amber" text="Only Subscription" id="p-sub" />
-          </li>
+          </li> */}
         </ul>
       </div>
       {/* Areas */}
