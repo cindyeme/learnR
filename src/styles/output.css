@@ -1501,6 +1501,10 @@ Ensure the default browser behavior of the `hidden` attribute.
           column-gap: 1.75rem;
 }
 
+.gap-y-0{
+  row-gap: 0px;
+}
+
 .space-x-3 > :not([hidden]) ~ :not([hidden]){
   --tw-space-x-reverse: 0;
   margin-right: calc(0.75rem * var(--tw-space-x-reverse));
@@ -3042,6 +3046,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
   .lg\:-mt-28{
     margin-top: -7rem;
+  }
+
+  .lg\:mt-0{
+    margin-top: 0px;
   }
 
   .lg\:block{
