@@ -21,7 +21,7 @@ const AboutIndex = () => (
               Home
             </Link>
             <span>/</span>
-            <span>About</span>
+            <span className="text-gray-400">About</span>
           </p>
         </div>
       </div>

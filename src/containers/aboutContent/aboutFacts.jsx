@@ -24,7 +24,7 @@ const AboutFacts = () => (
             courses from around the world.
           </p>
           <div className="mt-10 ">
-            <div className="bg-tag-blue bg-opacity-70 py-3 px-5 flex items-center space-x-3 rounded ring-2 ring-primary-900 ring-offset-2 ring-offset-primary-amber">
+            <div className="bg-tag-blue bg-opacity-70 py-3 px-5 flex items-center space-x-3 rounded ring-2 ring-grayish-600 ring-offset-2 ring-offset-primary-amber">
               <h1 className="lg:text-2xl text-xl">30+</h1>
               <p className="font-semibold">Succesful students</p>
             </div>
@@ -34,7 +34,7 @@ const AboutFacts = () => (
       <div className="col-span-full lg:col-span-4" data-aos="fade-up">
         <div className=" flex-col space-y-6 items-center">
           {/* 1st Item */}
-          <div className="bg-tag-blue bg-opacity-60 py-2.5 px-4 flex items-center space-x-5 rounded ring-2 ring-primary-900 ring-offset-2 ring-offset-primary-amber">
+          <div className="bg-tag-blue bg-opacity-60 py-2.5 px-4 flex items-center space-x-5 rounded ring-2 ring-grayish-600 ring-offset-2 ring-offset-primary-amber">
             <div className="bg-white px-4 py-3 rounded">
               <img src={lrners} alt="icon" className="img-fluid" />
             </div>
@@ -46,7 +46,7 @@ const AboutFacts = () => (
             </div>
           </div>
           {/* 2nd Item */}
-          <div className="bg-tag-blue bg-opacity-60 py-2.5 px-4 flex items-center space-x-5 rounded ring-2 ring-primary-900 ring-offset-2 ring-offset-primary-amber">
+          <div className="bg-tag-blue bg-opacity-60 py-2.5 px-4 flex items-center space-x-5 rounded ring-2 ring-grayish-600 ring-offset-2 ring-offset-primary-amber">
             <div className="bg-white px-4 py-3 rounded">
               <img src={cors} alt="icon" className="img-fluid" />
             </div>
@@ -58,7 +58,7 @@ const AboutFacts = () => (
             </div>
           </div>
           {/* 3rd Item */}
-          <div className="bg-tag-blue bg-opacity-60 py-2.5 px-4 flex items-center space-x-5 rounded ring-2 ring-primary-900 ring-offset-2 ring-offset-primary-amber">
+          <div className="bg-tag-blue bg-opacity-60 py-2.5 px-4 flex items-center space-x-5 rounded ring-2 ring-grayish-600 ring-offset-2 ring-offset-primary-amber">
             <div className="bg-white px-4 py-3 rounded">
               <img src={sucs} alt="icon" className="img-fluid" />
             </div>

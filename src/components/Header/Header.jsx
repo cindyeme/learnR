@@ -29,7 +29,7 @@ function Header() {
           !top && "bg-primary-600 shadow-lg"
         }`}
         ref={ref}
-        style={{zIndex: 9999}}
+        style={{ zIndex: 9999 }}
       >
         <div className="max-w-full bg-primary-600 lg:bg-transparent mx-auto px-4 lg:px-16 xl:px-20 py-4">
           <div className="flex flex-wrap items-center justify-between">
@@ -180,7 +180,8 @@ function Header() {
               open
                 ? "opacity-100 transition-opacity duration-300 ease-in"
                 : "hidden"
-            } bg-white px-4 pb-5 pt-2 w-full rounded h-full overflow-y-auto transition-all duration-300 ease-out z-50 lg:hidden`}
+            } bg-white px-4 pb-5 pt-2 w-full rounded h-full overflow-y-auto transition-all duration-300 ease-out z-50 lg:hidden shadow-new`}
+            style={{ zIndex: 9999 }}
           >
             <ul className="flex flex-col space-y-5 ">
               {/* Home */}

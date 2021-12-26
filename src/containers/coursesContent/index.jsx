@@ -19,7 +19,7 @@ const CourseContent = () => (
               Home
             </Link>
             <span>/</span>
-            <span>Courses</span>
+            <span className="text-gray-400">Courses</span>
           </p>
         </div>
       </div>

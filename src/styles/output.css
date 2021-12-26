@@ -863,6 +863,14 @@ Ensure the default browser behavior of the `hidden` attribute.
   z-index: 40;
 }
 
+.z-10{
+  z-index: 10;
+}
+
+.z-0{
+  z-index: 0;
+}
+
 .order-1{
   order: 1;
 }
@@ -2323,6 +2331,11 @@ Ensure the default browser behavior of the `hidden` attribute.
   color: rgb(38 93 151 / var(--tw-text-opacity));
 }
 
+.text-gray-200{
+  --tw-text-opacity: 1;
+  color: rgb(229 231 235 / var(--tw-text-opacity));
+}
+
 .underline{
   -webkit-text-decoration-line: underline;
           text-decoration-line: underline;
@@ -2470,6 +2483,11 @@ Ensure the default browser behavior of the `hidden` attribute.
 .ring-primary-900{
   --tw-ring-opacity: 1;
   --tw-ring-color: rgb(142 160 243 / var(--tw-ring-opacity));
+}
+
+.ring-grayish-600{
+  --tw-ring-opacity: 1;
+  --tw-ring-color: rgb(178 186 194 / var(--tw-ring-opacity));
 }
 
 .ring-offset-2{
