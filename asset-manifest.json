@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/learnR/static/css/main.1c54161a.css",
-    "main.js": "/learnR/static/js/main.d69e8a35.js",
+    "main.css": "/learnR/static/css/main.4aa1c81a.css",
+    "main.js": "/learnR/static/js/main.e6f2d952.js",
     "static/media/world-map.png": "/learnR/static/media/world-map.e07407cd365ca11157c3.png",
     "static/media/abt.png": "/learnR/static/media/abt.c39e039dcd748a191304.png",
     "static/media/teach.png": "/learnR/static/media/teach.518a02922f6ce2b05155.png",
@@ -28,6 +28,7 @@
     "static/media/teacher.svg": "/learnR/static/media/teacher.0639982d59f8afab711f.svg",
     "static/media/book.jpg": "/learnR/static/media/book.f053cf789237a7bf4a02.jpg",
     "static/media/error-404-2.svg": "/learnR/static/media/error-404-2.7aa8948a37e2f62f5a1b.svg",
+    "static/media/ele-bg.png": "/learnR/static/media/ele-bg.7a80b194ae4af9dbe279.png",
     "static/media/bc-3.jpg": "/learnR/static/media/bc-3.6162f9eae909674f322e.jpg",
     "static/media/error-404-1.svg": "/learnR/static/media/error-404-1.311a22813f48ffe2af12.svg",
     "static/media/teacher.jpg": "/learnR/static/media/teacher.8a0227bb7ccda6eacbf2.jpg",
@@ -45,11 +46,13 @@
     "static/media/path4.png": "/learnR/static/media/path4.cb1d9fab145d91e36846.png",
     "static/media/joseph.jpeg": "/learnR/static/media/joseph.bbf8ba7180f59ede51a5.jpeg",
     "static/media/book-2.svg": "/learnR/static/media/book-2.60bb63b40c9eff62e838.svg",
+    "static/media/elem-bg.png": "/learnR/static/media/elem-bg.9b550388fe699de0ff15.png",
     "static/media/path5.png": "/learnR/static/media/path5.037b2fcefee2867cd2f5.png",
     "static/media/path3.png": "/learnR/static/media/path3.3f66cc18d0e5e2526eb2.png",
     "static/media/b-stud1.jpeg": "/learnR/static/media/b-stud1.7988db9ae09c044fb3da.jpeg",
     "static/media/book-1.svg": "/learnR/static/media/book-1.bb142e7ec8768a79d83c.svg",
     "static/media/logo.png": "/learnR/static/media/logo.24fcc9f59872b7ff1f4e.png",
+    "static/media/teach.jpeg": "/learnR/static/media/teach.0f4e932bc20876a30470.jpeg",
     "static/media/bscience.jfif": "/learnR/static/media/bscience.c3c1abec7eb247de4582.jfif",
     "static/media/teacher.png": "/learnR/static/media/teacher.ea8199cc5561b38f3023.png",
     "static/media/btech.jfif": "/learnR/static/media/btech.5d7b1415e5935a6f3bd1.jfif",
@@ -62,11 +65,11 @@
     "static/media/slick.ttf": "/learnR/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "index.html": "/learnR/index.html",
     "static/media/slick.woff": "/learnR/static/media/slick.295183786cd8a1389865.woff",
-    "main.1c54161a.css.map": "/learnR/static/css/main.1c54161a.css.map",
-    "main.d69e8a35.js.map": "/learnR/static/js/main.d69e8a35.js.map"
+    "main.4aa1c81a.css.map": "/learnR/static/css/main.4aa1c81a.css.map",
+    "main.e6f2d952.js.map": "/learnR/static/js/main.e6f2d952.js.map"
   },
   "entrypoints": [
-    "static/css/main.1c54161a.css",
-    "static/js/main.d69e8a35.js"
+    "static/css/main.4aa1c81a.css",
+    "static/js/main.e6f2d952.js"
   ]
 }
