@@ -46,6 +46,7 @@ module.exports = {
       },
       boxShadow: {
         new: "0 25px 50px -12px rgba(175, 211, 241, 0.5)",
+        norm: "0 0 25px 0 rgba(175, 211, 241, 0.5)",
       },
       padding: {
         6: "1.5rem",

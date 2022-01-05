@@ -1,4 +1,4 @@
-import Layout from "../layout/Layout";
+import Layout from "../components/layout/Layout";
 import { Waves5 } from "../components/svg/Svg";
 import AboutIndex from "../containers/aboutContent";
 

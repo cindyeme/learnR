@@ -179,7 +179,7 @@ const SignUp = ({ loadState }) => {
                   Already have an account?{" "}
                   <Link
                     to="/signin"
-                    className="text-primary-700 font-semibold hover:text-primary-amber"
+                    className="text-primary-fade font-semibold hover:text-primary-amber"
                   >
                     Sign in
                   </Link>

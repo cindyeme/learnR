@@ -43,7 +43,7 @@ const Teachers = ({title, home}) => (
                 />
                 {/* </div> */}
                 <div className="flex flex-col space-y-3">
-                  <h4 className="font-bold px-3 tracking-wide">{item.name}</h4>
+                  <h4 className="font-bold px-3 tracking-wide"><Link to="/teacher-details">{item.name}</Link></h4>
                   <p className="tracking-widest text-xs uppercase px-3">
                     Teacher
                   </p>

@@ -1,4 +1,4 @@
-import Layout from "../layout/Layout";
+import Layout from "../components/layout/Layout";
 import HomeIndex from "../containers/landingPage";
 
 const Home = () => {

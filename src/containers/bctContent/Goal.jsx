@@ -29,11 +29,15 @@ const Goals = () => (
     <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-y-4 gap-x-8">
       {/* Single Item */}
       <div
-        className="sm:col-span-1 col-span-full xs:grid xs:grid-cols-5 bg-gray-100 rounded bg-opacity-25 border border-gray-100 py-3 md:py-4 px-3 gap-x-4 flex flex-col space-y-3 xs:space-y-0 items-center justify-center text-center xs:text-left"
+        className="sm:col-span-1 col-span-full xs:grid xs:grid-cols-5 bg-gray-100 rounded bg-opacity-20 border border-gray-100 py-3 md:py-4 px-3 gap-x-4 flex flex-col space-y-3 xs:space-y-0 items-center justify-center text-center xs:text-left"
         data-aos="fade-right"
         data-aos-delay="100"
       >
-        <div className="xs:col-span-1 col-span-full">
+        <div
+          className="xs:col-span-1 col-span-full"
+          data-aos="fade-right"
+          data-aos-delay="200"
+        >
           <img
             src={icon1}
             alt="icon"
@@ -51,7 +55,11 @@ const Goals = () => (
         </div>
       </div>
       {/* Single Item */}
-      <div className="sm:col-span-1 col-span-full xs:grid xs:grid-cols-5 bg-gray-100 rounded bg-opacity-25 border border-gray-100 py-3 md:py-4 px-3 gap-x-4 flex flex-col space-y-3 xs:space-y-0 items-center justify-center text-center xs:text-left">
+      <div
+        className="sm:col-span-1 col-span-full xs:grid xs:grid-cols-5 bg-gray-100 rounded bg-opacity-20 border border-gray-100 py-3 md:py-4 px-3 gap-x-4 flex flex-col space-y-3 xs:space-y-0 items-center justify-center text-center xs:text-left"
+        data-aos="fade-right"
+        data-aos-delay="100"
+      >
         <div
           className="xs:col-span-1 col-span-full"
           data-aos="fade-right"
@@ -74,8 +82,16 @@ const Goals = () => (
         </div>
       </div>
       {/* Single Item */}
-      <div className="sm:col-span-1 col-span-full xs:grid xs:grid-cols-5 bg-gray-100 rounded bg-opacity-25 border border-gray-100 py-3 md:py-4 px-3 gap-x-4 flex flex-col space-y-3 xs:space-y-0 items-center justify-center text-center xs:text-left">
-        <div className="xs:col-span-1 col-span-full">
+      <div
+        className="sm:col-span-1 col-span-full xs:grid xs:grid-cols-5 bg-gray-100 rounded bg-opacity-20 border border-gray-100 py-3 md:py-4 px-3 gap-x-4 flex flex-col space-y-3 xs:space-y-0 items-center justify-center text-center xs:text-left"
+        data-aos="fade-right"
+        data-aos-delay="100"
+      >
+        <div
+          className="xs:col-span-1 col-span-full"
+          data-aos="fade-right"
+          data-aos-delay="200"
+        >
           <img
             src={icon3}
             alt="icon"

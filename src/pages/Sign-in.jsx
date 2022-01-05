@@ -100,7 +100,7 @@ const SignIn = ({ loadState }) => {
                 <div className="text-right">
                   <Link
                     to="/forgot-password"
-                    className="text-primary-700 hover:text-primary-amber  font-semibold focus:outline-none text-sm"
+                    className="text-primary-fade trans hover:text-primary-amber  font-semibold focus:outline-none text-sm"
                   >
                     Forgot Password?
                   </Link>
@@ -123,20 +123,28 @@ const SignIn = ({ loadState }) => {
                     )}
                   </Button>
                 </div>
-
-                {/* SIgn up */}
-                <p className="text-center text-grayish-900">
-                  Don't have an account?{" "}
-                  <Link
-                    to="/signup"
-                    className="text-primary-700 font-semibold hover:text-primary-amber"
-                  >
-                    Sign up
-                  </Link>
-                </p>
               </form>
             </div>
           </div>
+          {/* SIgn up */}
+          <p className="text-center text-grayish-900">
+            Don't have an account?{" "}
+            <Link
+              to="/signup"
+              className="text-primary-fade trans font-semibold hover:text-primary-amber"
+            >
+              Sign up
+            </Link>
+          </p>
+          {/* Become a Teacher */}
+          <p className="text-center mt-3">
+            <Link
+              to="/teachers-form"
+              className="text-primary-fade trans hover:text-primary-amber underline text-sm font-semibold"
+            >
+              Become a Teacher?
+            </Link>
+          </p>
         </div>
       </div>
     </section>

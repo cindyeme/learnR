@@ -8,7 +8,7 @@ const Start = () => (
       <div className="md:col-span-7 col-span-full mb-10" data-aos="flip-up">
         <div className="flex flex-col space-y-4">
           <h2 className="tracking-wide lg:leading-normal text-3xl md:text-3xl lg:text-4xl font-bolder text-primary-900 text-center lg:text-left">
-            Start Your Teaching Career Today With LearnR
+            Grow Your Teaching Career Today With LearnR
           </h2>
           <p className="leading-relaxed text-center lg:text-left text-sm md:text-base font-medium px-2">
             We take our mission of increasing global access to quality

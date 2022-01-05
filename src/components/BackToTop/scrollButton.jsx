@@ -30,7 +30,7 @@ const BackToTop = () => {
         bottom: "40px",
       }}
     >
-      <span class={`animate-ping absolute py-4 px-6 rounded-full bg-amber-500 opacity-75 ${
+      <span className={`animate-ping absolute py-4 px-6 rounded-full bg-amber-500 opacity-75 ${
           visible ? "inline-flex" : "hidden"
         }`}></span>
       <button

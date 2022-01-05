@@ -1,4 +1,4 @@
-import Layout from "../layout/Layout";
+import Layout from "../components/layout/Layout";
 import {Waves4} from "../components/svg/Svg";
 import CourseContent from "../containers/coursesContent";
 

@@ -19,6 +19,8 @@ const TeacherForm = ({ loadState }) => {
       email: "",
       level: "",
       interest: "",
+      gender: "",
+      experience: "",
       password: "",
     },
 
@@ -124,6 +126,23 @@ const TeacherForm = ({ loadState }) => {
                     ) : null}
                   </div>
 
+                  {/* Gender */}
+                  <div className="form-group col-span-full mb-4">
+                    <Select
+                      name="gender"
+                      label="Gender"
+                      value={formik.values.gender}
+                      defaultValue="--select gender--"
+                      choices={["Female", "Male"]}
+                      {...formik.getFieldProps("gender")}
+                    />
+                    {formik.touched.gender && formik.errors.gender ? (
+                      <p className="pt-1 text-sm text-red-600">
+                        {formik.errors.gender}
+                      </p>
+                    ) : null}
+                  </div>
+
                   {/* level */}
                   <div className="form-group col-span-full md:col-span-1 mb-4">
                     <Select
@@ -147,8 +166,33 @@ const TeacherForm = ({ loadState }) => {
                     ) : null}
                   </div>
 
-                  {/* Interest */}
+                  {/* Experience */}
                   <div className="form-group col-span-full md:col-span-1 mb-4">
+                    <Select
+                      name="experience"
+                      label="Years of Experience"
+                      value={formik.values.experience}
+                      defaultValue="--select--"
+                      choices={[
+                        "< 1 year",
+                        "1 year",
+                        "2 years",
+                        "3 years",
+                        "4 years",
+                        "5 years",
+                        "> 5 years",
+                      ]}
+                      {...formik.getFieldProps("experience")}
+                    />
+                    {formik.touched.experience && formik.errors.experience ? (
+                      <p className="pt-1 text-sm text-red-600">
+                        {formik.errors.experience}
+                      </p>
+                    ) : null}
+                  </div>
+
+                  {/* Interest */}
+                  <div className="form-group col-span-full mb-4">
                     <Select
                       name="interest"
                       label="Interest Areas"
@@ -221,7 +265,7 @@ const TeacherForm = ({ loadState }) => {
                   Already have an account?{" "}
                   <Link
                     to="/signin"
-                    className="text-primary-700 font-semibold hover:text-primary-amber"
+                    className="text-primary-fade font-semibold hover:text-primary-amber"
                   >
                     Sign in
                   </Link>

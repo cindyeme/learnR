@@ -3,7 +3,9 @@ import aboutImg from "../../assets/img/course-appp.svg";
 import Button from "../../components/button/Button";
 
 const AboutBrief = () => (
-  <section className="relative max-w-7xl lg:container mx-auto mt-4 xl:mt-0">
+  <section
+    className="relative max-w-7xl lg:container mx-auto mt-4 xl:mt-0"
+  >
     <div className="grid lg:grid-cols-12 gap-x-6">
       <div className="col-span-full lg:col-span-6" data-aos="fade-right">
         <div className="img-box relative my-5 xl:my-0">

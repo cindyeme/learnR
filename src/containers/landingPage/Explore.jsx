@@ -7,9 +7,10 @@ import Explore_data from "../../constants/explore.json";
 import { Waves } from "../../components/svg/Svg";
 import Button from "../../components/button/Button";
 import book from '../../assets/img/book-rm.png';
+import element from '../../assets/img/elem-bg.png';
 
 const Explore = () => (
-  <section className="relative pb-10 bg-tag-section px-4 lg:px-0">
+  <section className="relative pb-10 bg-tag-section px-4 lg:px-0" style={{ backgroundImage: `url(${element})` }}>
     <Waves className="absolute bottom-0 -z-0 opacity-10" />
     <div className="max-w-6xl mx-auto z-50">
       <div className="max-w-3xl text-center mx-auto">

@@ -1,6 +1,6 @@
-import icon1 from '../../assets/img/icon-8.png';
-import icon2 from '../../assets/img/icon-6.png';
-import icon3 from '../../assets/img/icon-7.png';
+import icon1 from "../../assets/img/icon-8.png";
+import icon2 from "../../assets/img/icon-6.png";
+import icon3 from "../../assets/img/icon-7.png";
 
 const AboutOffer = () => (
   <div className="grid sm:grid-cols-2 gap-8 lg:grid-cols-3 mt-12 mb-16 lg:mb-28 relative">
@@ -11,9 +11,9 @@ const AboutOffer = () => (
       data-aos-delay="100"
     >
       <div className=" p-4 rounded-r-lg border border-l-8 border-grayish-600 relative">
-        <span class="flex absolute -right-3 -top-8 md:-right-4 lg:-top-6">
-          {/* <span class="animate-ping absolute inline-flex h-8 w-8 rounded-full bg-grayish-light"></span> */}
-          <span class="relative inline-flex rounded-full p-3 md:px-4 md:py-3 bg-gray-100">
+        <span className="flex absolute -right-3 -top-8 md:-right-4 lg:-top-6">
+          {/* <span className="animate-ping absolute inline-flex h-8 w-8 rounded-full bg-grayish-light"></span> */}
+          <span className="relative inline-flex rounded-full p-3 md:px-4 md:py-3 bg-gray-100">
             <img
               src={icon1}
               alt="icon"
@@ -39,9 +39,9 @@ const AboutOffer = () => (
       data-aos-delay="200"
     >
       <div className=" p-4 rounded-r-lg border border-l-8 border-grayish-600 relative">
-        <span class="flex absolute -right-4 -top-6">
-          {/* <span class="animate-ping absolute inline-flex h-8 w-8 rounded-full bg-grayish-light"></span> */}
-          <span class="relative inline-flex rounded-full p-3 md:px-4 md:py-3 bg-gray-100 ">
+        <span className="flex absolute -right-4 -top-6">
+          {/* <span className="animate-ping absolute inline-flex h-8 w-8 rounded-full bg-grayish-light"></span> */}
+          <span className="relative inline-flex rounded-full p-3 md:px-4 md:py-3 bg-gray-100 ">
             <img
               src={icon3}
               alt="icon"
@@ -67,9 +67,9 @@ const AboutOffer = () => (
       data-aos-delay="300"
     >
       <div className=" p-4 rounded-r-lg border border-l-8 border-grayish-600 relative">
-        <span class="flex absolute -right-4 -top-6">
-          {/* <span class="animate-ping absolute inline-flex h-8 w-8 rounded-full bg-grayish-light"></span> */}
-          <span class="relative inline-flex rounded-full p-3 md:px-4 md:py-3 bg-gray-100">
+        <span className="flex absolute -right-4 -top-6">
+          {/* <span className="animate-ping absolute inline-flex h-8 w-8 rounded-full bg-grayish-light"></span> */}
+          <span className="relative inline-flex rounded-full p-3 md:px-4 md:py-3 bg-gray-100">
             <img
               src={icon2}
               alt="icon"

@@ -17,6 +17,10 @@
   background: #132f4c;
   color: #fff;
 }
+.trans{
+  transition: all .3s linear;
+}
+
 .banner{
   font-weight: 700;
 }

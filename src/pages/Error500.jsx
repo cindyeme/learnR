@@ -1,4 +1,4 @@
-import Layout from "../layout/Layout";
+import Layout from "../components/layout/Layout";
 import { Error5 } from "../components/error/Errors";
 
 const Error500 = () => (

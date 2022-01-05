@@ -295,7 +295,7 @@ function Footer() {
               className="text-primary-amber font-bold hover:underline"
               href="https://"
             >
-              MWS28 Team
+              MG28 Team
             </a>
             . All rights reserved.
           </div>
