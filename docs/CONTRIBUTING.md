@@ -44,7 +44,7 @@ So here is a run down of how you would go about contributing:
   - Open the folder you want to work on your machine.
   - Open your favourite editor.
   - Open the terminal.
-  - run `git clone [Link to your copy of the zc main repository]`.
+  - run `git clone [Link to your copy of the learnR repository]`.
     > The link should look like this : `https://github.com/<your username>/learnR.git`
 
   Again, here is a link to a [short video](https://youtu.be/RXDja3ZkqZY) showing how you can do this.
