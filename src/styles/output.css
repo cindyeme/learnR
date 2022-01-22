@@ -1643,6 +1643,11 @@ Ensure the default browser behavior of the `hidden` attribute.
   background-color: rgba(255, 255, 255, .1);
 }
 
+.bg-tag-red{
+  --tw-bg-opacity: 1;
+  background-color: rgb(210 63 63 / var(--tw-bg-opacity));
+}
+
 .bg-opacity-75{
   --tw-bg-opacity: 0.75;
 }
@@ -2727,6 +2732,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
   .md\:-mt-5{
     margin-top: -1.25rem;
+  }
+
+  .md\:mt-10{
+    margin-top: 2.5rem;
   }
 
   .md\:block{

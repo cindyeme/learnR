@@ -23,10 +23,7 @@ const AboutBrief = () => (
           <p className="leading-relaxed text-center lg:text-left text-sm md:text-base">
             LearnR aims to bring together students and teachers on the community
             platform. We take our mission of increasing global access to quality
-            education seriously. We connect learners to the best tutors and
-            courses from around the world. The quick, brown fox jumps over a
-            lazy dog. DJs flock by when MTV ax quiz prog. Junk MTV quiz graced
-            by fox whelps. Bawds jog, flick quartz, vex nymphs. Waltz, bad
+            education seriously. We illuminate academic textbooks with annotations and discussion around content. LearnR mission is to facilitate the easy spread of knowledge within our community/schools. Our goal is to promote open-source academic textbooks and publishing for teachers and learners alike.
           </p>
           <hr className="text-primary-amber w-20 py-4 mt-5" />
           <ul className="list-disc lg:list-inside px-4 lg:px-0 flex flex-col space-y-3 text-sm md:text-base">
@@ -37,7 +34,7 @@ const AboutBrief = () => (
             <li>
               Our Mission Is Increasing Global Access To Quality Education
             </li>
-            <li>129k Online Available Notes</li>
+            <li>129k Online Available Textbooks</li>
           </ul>
           <div className="mt-10 flex flex-col space-y-5 xs:flex-row xs:space-x-6 xs:space-y-0 items-center">
             <Button className="rounded-full ring ring-primary-900 ring-offset-2 !bg-primary-amber !px-5 !py-4">

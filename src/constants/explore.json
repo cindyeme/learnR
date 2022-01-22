@@ -1,6 +1,6 @@
 [
   {
-    "teacher": "assets/img/teacher.png",
+    "teacher": "christophe.jfif",
     "name": "Christophe Habimana",
     "topic": "You and Energy",
     "subject": "Basic Tech",
@@ -14,7 +14,7 @@
     "cover": "bc-1.jpg"
   },
   {
-    "teacher": "assets/img/teacher.png",
+    "teacher": "cynthia.jpeg",
     "name": "Emerenini Cynthia",
     "topic": "Computer Operations",
     "subject": "Computing",
@@ -28,7 +28,7 @@
     "cover": "bc-5.jpg"
   },
   {
-    "teacher": "assets/img/teacher.png",
+    "teacher": "elvis.jfif",
     "name": "Elvis Mariga",
     "topic": "Exploring Our Environments",
     "subject": "Basic Science",
@@ -42,7 +42,7 @@
     "cover": "bc-2.jpg"
   },
   {
-    "teacher": "assets/img/teacher.png",
+    "teacher": "mary.jfif",
     "name": "Mary Obiagba",
     "topic": "Electricity and Magnetism",
     "subject": "Physics",
@@ -56,8 +56,8 @@
     "cover": "bc-3.jpg"
   },
   {
-    "teacher": "assets/img/teacher.png",
-    "name": "Mary Obiagba",
+    "teacher": "joseph.jpeg",
+    "name": "Joseph Bloom",
     "topic": "Electricity and Magnetism",
     "subject": "Physics",
     "pages": 12,
@@ -70,8 +70,8 @@
     "cover": "bc-4.jpg"
   },
   {
-    "teacher": "assets/img/teacher.png",
-    "name": "Mary Obiagba",
+    "teacher": "catherine.jfif",
+    "name": "Wanjiru Catherine",
     "topic": "Electricity and Magnetism",
     "subject": "Physics",
     "pages": 12,
@@ -84,7 +84,7 @@
     "cover": "b-stud1.jpeg"
   },
   {
-    "teacher": "assets/img/teacher.png",
+    "teacher": "mary.jfif",
     "name": "Mary Obiagba",
     "topic": "Electricity and Magnetism",
     "subject": "Physics",
@@ -98,7 +98,7 @@
     "cover": "bc-7.jpg"
   },
   {
-    "teacher": "assets/img/teacher.png",
+    "teacher": "cynthia.jpeg",
     "name": "Emerenini Cynthia",
     "topic": "Computer Operations",
     "subject": "Computing",

@@ -2,7 +2,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBookOpen } from "@fortawesome/free-solid-svg-icons";
 import { faFolderOpen } from "@fortawesome/free-solid-svg-icons";
 import { Link } from 'react-router-dom';
-import teacher from "../../assets/img/teacher.png";
+// import teacher from "../../assets/img/teacher.png";
 import Explore_data from "../../constants/explore.json";
 import { Waves } from "../../components/svg/Svg";
 import Button from "../../components/button/Button";
@@ -32,7 +32,7 @@ const Explore = () => (
               >
                 <div className="flex space-x-4 items-center">
                   <img
-                    src={teacher}
+                    src={require(`../../assets/img/${item.teacher}`)}
                     alt="teacher"
                     className="img-fluid rounded-full h-8 w-8 object-cover shadow"
                   />

@@ -14,10 +14,12 @@ const Banner = () => (
             A Better Learning Future Starts Here
           </h1>
           <p className="text-sm font-medium text-white mt-2 tracking-wide leading-8">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat.
+            As time went by, physical classes have been less valued and things
+            went worse when the pandemic set in. However, people shall keep
+            learning and so much more content is yet to be produced as it is in
+            this era of information and technology. At learnerR, we saw that
+            coming and hence put in place this solution to be handy for everyone
+            during these moments of uncertainty.
           </p>
           <div className="form-search mt-8">
             <form action="#" className="flex flex-row relative">

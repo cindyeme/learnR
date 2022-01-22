@@ -148,7 +148,7 @@ function Header() {
                 <li>
                   <span className="animate-ping absolute inline-flex py-4 px-12 rounded-lg bg-amber-500 opacity-80"></span>
                   <NavLink
-                    to="/sign-in"
+                    to="/signin"
                     className="font-bold outline-none uppercase tracking-wider focus:outline-none focus:shadow-none transition-all duration-300 rounded-lg py-2.5 px-6 text-xs leading-normal text-white bg-amber-500 hover:bg-amber-700 focus:bg-amber-400 active:bg-amber-800 shadow-md-amber hover:shadow-lg-amber inline-flex relative"
                   >
                     Get Started
@@ -239,7 +239,7 @@ function Header() {
               <li className="mt-4">
                 <span className="animate-ping absolute inline-flex py-4 px-8 rounded-lg bg-amber-500 opacity-90"></span>
                 <NavLink
-                  to="/sign-in"
+                  to="/signin"
                   className="font-bold outline-none uppercase tracking-wider focus:outline-none focus:shadow-none transition-all duration-300 rounded-lg py-2.5 px-6 text-xs leading-normal text-white bg-amber-500 hover:bg-amber-700 focus:bg-amber-400 active:bg-amber-800 shadow-md-amber hover:shadow-lg-amber inline-flex relative"
                 >
                   Get Started

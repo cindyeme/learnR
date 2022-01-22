@@ -18,7 +18,7 @@ const ResetPassword = ({ resetPassword, loadState }) => {
     // validate the form inputs
 
     validationSchema: Yup.object({
-      password: Yup.string().required("Email Is Required."),
+      password: Yup.string().required("Password Is Required."),
 
       passwordConfirm: Yup.string()
         .oneOf([Yup.ref("password"), null], "Passwords dont match")

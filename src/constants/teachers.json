@@ -1,27 +1,32 @@
 [
   {
     "name": "Emerenini Cynthia",
-    "img": "teacher.jpg",
+    "img": "cynthia.jpeg",
     "desc": "A brief info about the teacher here."
   },
   {
     "name": "Christophe Habimana",
-    "img": "teacher-2.jpg",
+    "img": "christophe.jfif",
     "desc": "A brief info about the teacher here."
   },
   {
     "name": "Wanjiru Catherine",
-    "img": "teacher-3.jpg",
+    "img": "catherine.jfif",
     "desc": "A brief info about the teacher here."
   },
   {
     "name": "Elvis Mariga",
-    "img": "teacher-5.jpg",
+    "img": "elvis.jfif",
     "desc": "A brief info about the teacher here."
   },
   {
     "name": "Joseph Bloom",
-    "img": "teacher-4.jpg",
+    "img": "joseph.jpeg",
+    "desc": "A brief info about the teacher here."
+  },
+  {
+    "name": "Mary Obiagba",
+    "img": "mary.jfif",
     "desc": "A brief info about the teacher here."
   }
 ]

@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBookOpen } from "@fortawesome/free-solid-svg-icons";
 import Explore_data from "../../constants/explore.json";
-import teacher from '../../assets/img/teacher.jpg';
+// import teacher from '../../assets/img/teacher.jpg';
 
 const SingleCourse = () => {
   return (
@@ -21,16 +21,16 @@ const SingleCourse = () => {
                   className="img-fluid w-full rounded-t h-40 object-cover scale-100 transition duration-300 ease-linear group-hover:scale-110 group-hover:rotate-3 relative"
                 />
               </Link>
-              <div className={`${item.tagColor} trend-badge text-center bg-tag-blue flex flex-col`}>
+              <div
+                className={`${item.tagColor} trend-badge text-center bg-tag-blue flex flex-col`}
+              >
                 <i className="fas fa-bolt" />
-                <span className={`px-3 text-xs`}>
-                  {item.tag}
-                </span>
+                <span className={`px-3 text-xs`}>{item.tag}</span>
               </div>
             </div>
             <div className="flex space-x-3 items-center px-3">
               <img
-                src={teacher}
+                src={require(`../../assets/img/${item.teacher}`)}
                 alt="teacher"
                 className="img-fluid rounded-full h-8 w-8 object-cover shadow-lg-amber"
               />

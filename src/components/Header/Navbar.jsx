@@ -17,7 +17,8 @@ export default function Header() {
       <NavbarContainer>
         <NavbarWrapper>
           <NavbarBrand>
-            <span className="text-xl">Learn</span> <span className="text-primary-800 text-2xl">R</span>
+            <span className="text-xl">Learn</span>{" "}
+            <span className="text-primary-800 text-2xl">R</span>
           </NavbarBrand>
           <NavbarToggler
             color="white"
@@ -40,7 +41,7 @@ export default function Header() {
             <NavLink href="/become-a-teacher" ripple="light">
               Become A Teacher
             </NavLink>
-            <NavLink href="/sign-in" ripple="light">
+            <NavLink href="/signin" ripple="light">
               <Button
                 color="amber"
                 buttonType="filled"

@@ -1,8 +1,8 @@
-import { Link } from 'react-router-dom';
-import icon1 from '../../assets/img/icon-1.png';
-import icon2 from '../../assets/img/icon-2.png';
-import icon3 from '../../assets/img/icon-3.png';
-import icon4 from '../../assets/img/icon-4.png';
+import { Link } from "react-router-dom";
+import icon1 from "../../assets/img/icon-1.png";
+import icon2 from "../../assets/img/icon-2.png";
+import icon3 from "../../assets/img/icon-3.png";
+import icon4 from "../../assets/img/icon-4.png";
 
 const Discover = () => (
   <section className="py-16">
@@ -16,9 +16,9 @@ const Discover = () => (
             Discover How LearnR Works
           </h2>
           <p className="leading-relaxed text-sm md:text-base">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco.
+            Our mission is to facilitate the easy spread of knowledge within our
+            community/schools. Our goal is to promote open-source academic
+            textbooks and publishing for teachers and learners alike.
           </p>
         </div>
         <div className="grid lg:grid-cols-4 md:grid-cols-3 gap-5 max-h-full py-4 mt-8">
@@ -39,7 +39,7 @@ const Discover = () => (
               but the majority have suffered alteration.
             </p>
             <Link
-              to="/sign-in"
+              to="/signin"
               className="text-primary-amber font-medium hover:underline"
             >
               Start Now!
@@ -62,7 +62,7 @@ const Discover = () => (
               but the majority have suffered alteration.
             </p>
             <Link
-              to="/sign-in"
+              to="/signin"
               className="text-primary-amber font-medium hover:underline"
             >
               Start Now!
@@ -85,7 +85,7 @@ const Discover = () => (
               but the majority have suffered alteration.
             </p>
             <Link
-              to="/sign-in"
+              to="/signin"
               className="text-primary-amber font-medium hover:underline"
             >
               Start Now!
@@ -108,7 +108,7 @@ const Discover = () => (
               but the majority have suffered alteration.
             </p>
             <Link
-              to="/sign-in"
+              to="/signin"
               className="text-primary-amber font-medium hover:underline"
             >
               Start Now!

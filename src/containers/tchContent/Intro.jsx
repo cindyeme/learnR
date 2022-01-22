@@ -1,5 +1,6 @@
-// import { useState, useEffect } from "react";
-// import Axios from "axios";
+import { useState, useEffect } from "react";
+import Axios from "axios";
+import { Alert, TYPE } from "../../components/alert/Alert";
 // import { Link } from "react-router-dom";
 import Image from "@material-tailwind/react/Image";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -13,14 +14,14 @@ import {
 import avatar from "../../assets/img/teach.jpeg";
 
 const TchIntro = () => {
-  // const [url, setUrl] = useState({});
-  // useEffect(() => {
-  //   Axios.get("https://jsonplaceholder.typicode.com/photos").then((res) => {
-  //     setUrl(res.data.url);
-  //     console.log(res);
-  //   });
-  // }, []);
-  // console.log(url);
+  const [url, setUrl] = useState('');
+  useEffect(() => {
+    Axios.get("https://jsonplaceholder.typicode.com/photos").then((res) => {
+      setUrl(res.data.url);
+      console.log(res.data.url);
+    }).catch(()=>Alert('Image not added', TYPE.ERROR));
+  }, []);
+  console.log(url);
   return (
     <section className="relative mt-16 lg:mt-0">
       <div className="grid grid-cols-12 gap-y-0 gap-x-7 items-cente">
@@ -92,9 +93,9 @@ const TchIntro = () => {
       </div>
 
       {/* About */}
-      <div className="grid grid-cols-12 gap-y-4 gap-x-8 mt-10">
+      <div className="grid grid-cols-12 gap-y-6 gap-x-8 mt-16 md:mt-10">
         <div className="md:col-span-6 col-span-full">
-          <h1 className="text-3xl bg-white bg-opacity-20 font-bold py-2 px-4 inline">
+          <h1 className="text-3xl bg-white bg-opacity-20 font-bold py-2 px-4 inline text-center md:text-left">
             About Teacher
           </h1>
           <p className="text-gray-100 font-medium leading-relaxed sm:text-base text-sm mt-8">
@@ -117,7 +118,7 @@ const TchIntro = () => {
           </p>
         </div>
         <div className="md:col-span-6 col-span-full">
-          <h1 className="text-3xl bg-white bg-opacity-20 font-bold py-2 px-4 inline">
+          <h1 className="text-3xl bg-white bg-opacity-20 font-bold py-2 px-4 inline text-center md:text-left">
             Qualifications
           </h1>
         </div>
