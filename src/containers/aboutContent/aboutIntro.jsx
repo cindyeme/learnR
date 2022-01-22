@@ -15,7 +15,7 @@ const AboutIntro = () => (
         <h2 className="tracking-wide lg:leading-normal text-3xl my-5 md:text-3xl lg:text-4xl font-bolder text-primary-900 text-center lg:text-left">
           Education in continuing a proud tradition.
         </h2>
-        <p className="leading-relaxed text-center lg:text-left text-sm md:text-base">
+        <p className="leading-relaxed font-medium text-center lg:text-left text-sm md:text-base">
           LearnR aims to bring together students and teachers on the community
           platform. We take our mission of increasing global access to quality
           education seriously. We illuminate academic textbooks with annotations

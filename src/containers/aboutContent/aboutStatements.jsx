@@ -88,15 +88,17 @@ const AboutStatements = () => {
             leaveEnd="opacity-0 -translate-y-16"
           >
             <div className="relative">
-              <h3 className="underline underline-offset-8 font-bolder uppercase tracking-wider text-primary-900 mb-5 text-lg md:text-xl text-center md:text-left">Why LearnR</h3>
+              <h3 className="underline underline-offset-8 font-bolder uppercase tracking-wider text-primary-900 mb-5 text-lg md:text-xl text-center md:text-left">
+                Why LearnR
+              </h3>
               <p className="leading-relaxed text-center md:text-left text-sm md:text-base font-medium">
                 LearnR aims to bring together students and teachers on the
                 community platform. We take our mission of increasing global
-                access to quality education seriously. We connect learners to
-                the best tutors and courses from around the world. The quick,
-                brown fox jumps over a lazy dog. DJs flock by when MTV ax quiz
-                prog. Junk MTV quiz graced by fox whelps. Bawds jog, flick
-                quartz, vex nymphs. Waltz, bad
+                access to quality education seriously. We illuminate academic
+                textbooks with annotations and discussion around content. LearnR
+                mission is to facilitate the easy spread of knowledge within our
+                community/schools. Our goal is to promote open-source academic
+                textbooks and publishing for teachers and learners alike.
               </p>
               <hr className="text-primary-amber w-20 py-4 mt-5" />
               <ul className="list-disc lg:list-inside px-4 lg:px-0 flex flex-col space-y-2 text-sm font-medium">
@@ -124,15 +126,17 @@ const AboutStatements = () => {
             leaveEnd="opacity-0 -translate-y-16"
           >
             <div className="relative">
-              <h3 className="underline underline-offset-8 font-bolder uppercase tracking-wider text-primary-900 mb-5 text-lg md:text-xl text-center md:text-left">Our Mission</h3>
+              <h3 className="underline underline-offset-8 font-bolder uppercase tracking-wider text-primary-900 mb-5 text-lg md:text-xl text-center md:text-left">
+                Our Mission
+              </h3>
               <p className="leading-relaxed text-center md:text-left text-sm md:text-base font-medium">
                 LearnR aims to bring together students and teachers on the
                 community platform. We take our mission of increasing global
-                access to quality education seriously. We connect learners to
-                the best tutors and courses from around the world. The quick,
-                brown fox jumps over a lazy dog. DJs flock by when MTV ax quiz
-                prog. Junk MTV quiz graced by fox whelps. Bawds jog, flick
-                quartz, vex nymphs. Waltz, bad
+                access to quality education seriously. We illuminate academic
+                textbooks with annotations and discussion around content. LearnR
+                mission is to facilitate the easy spread of knowledge within our
+                community/schools. Our goal is to promote open-source academic
+                textbooks and publishing for teachers and learners alike.
               </p>
               <hr className="text-primary-amber w-20 py-4 mt-5" />
               <ul className="list-disc lg:list-inside px-4 lg:px-0 flex flex-col space-y-2 text-sm font-medium">
@@ -160,15 +164,17 @@ const AboutStatements = () => {
             leaveEnd="opacity-0 -translate-y-16"
           >
             <div className="relative">
-              <h3 className="underline underline-offset-8 font-bolder uppercase tracking-wider text-primary-900 mb-5 text-lg md:text-xl text-center md:text-left">Our Vision</h3>
+              <h3 className="underline underline-offset-8 font-bolder uppercase tracking-wider text-primary-900 mb-5 text-lg md:text-xl text-center md:text-left">
+                Our Vision
+              </h3>
               <p className="leading-relaxed text-center md:text-left text-sm md:text-base font-medium">
                 LearnR aims to bring together students and teachers on the
                 community platform. We take our mission of increasing global
-                access to quality education seriously. We connect learners to
-                the best tutors and courses from around the world. The quick,
-                brown fox jumps over a lazy dog. DJs flock by when MTV ax quiz
-                prog. Junk MTV quiz graced by fox whelps. Bawds jog, flick
-                quartz, vex nymphs. Waltz, bad
+                access to quality education seriously. We illuminate academic
+                textbooks with annotations and discussion around content. LearnR
+                mission is to facilitate the easy spread of knowledge within our
+                community/schools. Our goal is to promote open-source academic
+                textbooks and publishing for teachers and learners alike.
               </p>
               <hr className="text-primary-amber w-20 py-4 mt-5" />
               <ul className="list-disc lg:list-inside px-4 lg:px-0 flex flex-col space-y-2 text-sm font-medium">

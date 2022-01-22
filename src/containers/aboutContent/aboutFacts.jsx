@@ -18,10 +18,11 @@ const AboutFacts = () => (
             Strengths in Numbers
           </h2>
           <p className="leading-relaxed text-center lg:text-left text-sm md:text-base font-medium">
-            LearnR aims to bring together students and teachers on the community
-            platform. We take our mission of increasing global access to quality
-            education seriously. We connect learners to the best tutors and
-            courses from around the world.
+            LearnR mission is to facilitate the easy spread of knowledge within
+            our community/schools. Our goal is to promote open-source academic
+            textbooks and publishing for teachers and learners alike. We take
+            our mission of increasing global access to quality education
+            seriously.
           </p>
           <div className="mt-10 ">
             <div className="bg-tag-blue bg-opacity-70 py-3 px-5 flex items-center space-x-3 rounded ring-2 ring-grayish-600 ring-offset-2 ring-offset-primary-amber">
