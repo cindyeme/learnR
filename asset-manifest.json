@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/learnR/static/css/main.643f4dc1.css",
-    "main.js": "/learnR/static/js/main.702d63cf.js",
+    "main.js": "/learnR/static/js/main.7466bd19.js",
     "static/media/world-map.png": "/learnR/static/media/world-map.e07407cd365ca11157c3.png",
     "static/media/abt.png": "/learnR/static/media/abt.c39e039dcd748a191304.png",
     "static/media/teach.png": "/learnR/static/media/teach.518a02922f6ce2b05155.png",
@@ -66,10 +66,10 @@
     "index.html": "/learnR/index.html",
     "static/media/slick.woff": "/learnR/static/media/slick.295183786cd8a1389865.woff",
     "main.643f4dc1.css.map": "/learnR/static/css/main.643f4dc1.css.map",
-    "main.702d63cf.js.map": "/learnR/static/js/main.702d63cf.js.map"
+    "main.7466bd19.js.map": "/learnR/static/js/main.7466bd19.js.map"
   },
   "entrypoints": [
     "static/css/main.643f4dc1.css",
-    "static/js/main.702d63cf.js"
+    "static/js/main.7466bd19.js"
   ]
 }
