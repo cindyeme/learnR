@@ -1,11 +1,20 @@
 # LearnR
 
-LearnR is an educators application that aims to bring together students and teachers on the community platform. The teachers will add lesson notes to school textbooks on the platform that can enable the student to learn the entire course syllabus from home. Students can add comments and questions to teachers’ notes. 
+LearnR is an educators application that aims to bring together students and teachers. A teacher will be able to add lesson notes on the platform while will enable students to learn any course syllabus from home. Students can add comments and questions to teachers’ notes. 
 
 Live Preview: [https://cindyeme.github.io/learnR/](https://cindyeme.github.io/learnR/)
-## Documentation Content
 
-* [UI](#ui)
+
+## Screenshots
+![Landing page](./screenshots/home.jfif)
+![About page](./screenshots/about.jfif)
+![Courses page](./screenshots/courses.jfif)
+![Teachers page](./screenshots/teacher.jfif)
+
+
+<!-- ## Documentation Content -->
+
+<!-- * [UI](#ui)
     * [Tools used](#ui-tools-used)
     * [Product](#ui-product)
 
@@ -21,7 +30,7 @@ Live Preview: [https://cindyeme.github.io/learnR/](https://cindyeme.github.io/le
     * [Run the test](#run-the-test)
 
 * [Contributors](#contributors)
-* [Copyright](#copyright)
+* [Copyright](#copyright) -->
 
 
 ## Getting Started.
